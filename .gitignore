@@ -3,6 +3,7 @@
 
 /**
 !/.gitignore
+!/README.md
 
 ### Include ProjectSettings:
 
@@ -13,7 +14,7 @@
 /Assets/**
 !/Assets/Levels/
 /Assets/Levels/**
-!/Assets/Levels/OffGridMilliwaysMod/
+!/Assets/Levels/CCCampMod/
 
 ### All the normal ignore stuff
 
