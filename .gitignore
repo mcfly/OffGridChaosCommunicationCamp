@@ -16,6 +16,7 @@
 !/Assets/Levels/
 /Assets/Levels/**
 !/Assets/Levels/CCCampMod/
+!/Assets/Levels/CCCampMod/**
 
 ### All the normal ignore stuff
 
