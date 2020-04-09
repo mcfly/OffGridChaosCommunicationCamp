@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerHitTarget
+  - Enemy
+  - MainLight
+  - PlayerHints
+  - WayPoint
+  - FollowTransform
+  - PlayerSMS
+  - SearchPoint
+  - Fader
+  - Noise
+  - Data
+  - DataTrail
+  - Door
+  - SecurityGate
+  - SurfaceConcrete
+  - SurfaceStairs
+  - DataSource
+  - DataObject
+  - PhysicalObject
+  - PopupMessages
+  - HackableDevice
+  - Interaction
+  - NPC
+  - NFCdevice
+  - NavCloud
+  - replace
+  - TaserTarget
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - characters
+  - skeletons
+  - level
+  - Data
+  - MissionObjects
+  - PostProcessingVolumes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

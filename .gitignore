@@ -8,6 +8,7 @@
 ### Include ProjectSettings:
 
 !/ProjectSettings/
+!/ProjectSettings/**
 
 ### Include mod level folder:
 !/Assets/
