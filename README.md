@@ -1,2 +1,2 @@
-# OffGridMilliwaysMod
-Off Grid Milliways Mod
+# OffGridCCCamp
+Off Grid Chaos Communication Camp Mod
