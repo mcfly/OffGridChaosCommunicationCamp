@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 0fb1aad0bf205764b83628e1d3e4c9d8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ComputerGrp
+    100004: computerKeyboard
+    100006: computerMonitor
+    100008: computerTower
+    100010: group4
+    100012: Computer-Keyboard_01
+    100014: Computer-Monitor_01
+    100016: Computer-Tower_01
+    100018: Computer-Monitor-Screen-4x3_01
+    400000: //RootNode
+    400002: ComputerGrp
+    400004: computerKeyboard
+    400006: computerMonitor
+    400008: computerTower
+    400010: group4
+    400012: Computer-Keyboard_01
+    400014: Computer-Monitor_01
+    400016: Computer-Tower_01
+    400018: Computer-Monitor-Screen-4x3_01
+    2300000: computerKeyboard
+    2300002: computerMonitor
+    2300004: computerTower
+    2300006: Computer-Keyboard_01
+    2300008: Computer-Monitor_01
+    2300010: Computer-Tower_01
+    2300012: Computer-Monitor-Screen-4x3_01
+    3300000: computerKeyboard
+    3300002: computerMonitor
+    3300004: computerTower
+    3300006: Computer-Keyboard_01
+    3300008: Computer-Monitor_01
+    3300010: Computer-Tower_01
+    3300012: Computer-Monitor-Screen-4x3_01
+    4300000: computerKeyboard
+    4300002: computerMonitor
+    4300004: computerTower
+    4300006: Computer-Tower_01
+    4300008: Computer-Monitor_01
+    4300010: Computer-Keyboard_01
+    4300012: Computer-Monitor-Screen-4x3_01
+    6400000: computerKeyboard
+    6400002: computerMonitor
+    6400004: computerTower
+    6400006: Computer-Keyboard_01
+    6400008: Computer-Monitor_01
+    6400010: Computer-Tower_01
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer-Monitor-Display-4x3
+    second: {fileID: 2100000, guid: e392b3d1414816d4a9bd8992a72aef5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diffuse-Vertex
+    second: {fileID: 2100000, guid: 6086d770d2734a440ba7b90221d1f507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Illuminated-Vertex
+    second: {fileID: 2100000, guid: b9d3e2527a9789d4bb3d40cab3d93877, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

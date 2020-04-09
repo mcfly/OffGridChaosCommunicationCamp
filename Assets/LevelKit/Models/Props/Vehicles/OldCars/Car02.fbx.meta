@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: f142ec85ace0f194088923388774c37d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polySurface65
+    100004: polySurface67
+    100006: polySurface68
+    100008: polySurface69
+    100010: polySurface70
+    100012: polySurface71
+    100014: polySurface72
+    100016: polySurface73
+    100018: polySurface74
+    100020: polySurface75
+    100022: polySurface76
+    100024: polySurface77
+    100026: polySurface78
+    100028: polySurface79
+    100030: polySurface80
+    100032: polySurface84
+    100034: polySurface85
+    100036: polySurface86
+    100038: polySurface87
+    100040: polySurface88
+    100042: polySurface89
+    100044: polySurface90
+    100046: polySurface91
+    100048: polySurface92
+    100050: polySurface93
+    100052: polySurface94
+    100054: polySurface95
+    100056: polySurface96
+    100058: polySurface97
+    100060: transform1
+    100062: transform10
+    100064: transform11
+    100066: transform12
+    100068: transform13
+    100070: transform14
+    100072: transform15
+    100074: transform16
+    100076: transform17
+    100078: transform18
+    100080: transform19
+    100082: transform2
+    100084: transform20
+    100086: transform21
+    100088: transform22
+    100090: transform23
+    100092: transform24
+    100094: transform25
+    100096: transform26
+    100098: transform27
+    100100: transform28
+    100102: transform3
+    100104: transform4
+    100106: transform5
+    100108: transform6
+    100110: transform7
+    100112: transform8
+    100114: transform9
+    400000: //RootNode
+    400002: polySurface65
+    400004: polySurface67
+    400006: polySurface68
+    400008: polySurface69
+    400010: polySurface70
+    400012: polySurface71
+    400014: polySurface72
+    400016: polySurface73
+    400018: polySurface74
+    400020: polySurface75
+    400022: polySurface76
+    400024: polySurface77
+    400026: polySurface78
+    400028: polySurface79
+    400030: polySurface80
+    400032: polySurface84
+    400034: polySurface85
+    400036: polySurface86
+    400038: polySurface87
+    400040: polySurface88
+    400042: polySurface89
+    400044: polySurface90
+    400046: polySurface91
+    400048: polySurface92
+    400050: polySurface93
+    400052: polySurface94
+    400054: polySurface95
+    400056: polySurface96
+    400058: polySurface97
+    400060: transform1
+    400062: transform10
+    400064: transform11
+    400066: transform12
+    400068: transform13
+    400070: transform14
+    400072: transform15
+    400074: transform16
+    400076: transform17
+    400078: transform18
+    400080: transform19
+    400082: transform2
+    400084: transform20
+    400086: transform21
+    400088: transform22
+    400090: transform23
+    400092: transform24
+    400094: transform25
+    400096: transform26
+    400098: transform27
+    400100: transform28
+    400102: transform3
+    400104: transform4
+    400106: transform5
+    400108: transform6
+    400110: transform7
+    400112: transform8
+    400114: transform9
+    2300000: polySurface97
+    3300000: polySurface97
+    4300000: polySurface97
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_color_b
+    second: {fileID: 2100000, guid: f77ebbd888c8b2f4684d796064b0c51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_glass2
+    second: {fileID: 2100000, guid: 6c002bf63baa8fd41aea04ca22010db7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_inter1
+    second: {fileID: 2100000, guid: a005d8201f9ccb340a84716e9706dd73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_plastic
+    second: {fileID: 2100000, guid: 867968f9169f44545a31eacc0e075128, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_steel1
+    second: {fileID: 2100000, guid: 86d8e28258153df4eb35e89019fb6124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_wheel
+    second: {fileID: 2100000, guid: f1a0178ab8d3dc048a3a6cd5ea7a7a51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_light
+    second: {fileID: 2100000, guid: c2caaea3165e8dc4cb6a5b67c3c59b76, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1512953707358392}
+  m_IsPrefabAsset: 1
+--- !u!1 &1512953707358392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4253734563840236}
+  - component: {fileID: 33043177709732466}
+  - component: {fileID: 23143475237681644}
+  - component: {fileID: 65356650048998076}
+  - component: {fileID: 114141561125104178}
+  m_Layer: 0
+  m_Name: SnackMachine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1723597363357960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4656109785659908}
+  m_Layer: 0
+  m_Name: UserPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4253734563840236
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512953707358392}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4656109785659908}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
+--- !u!4 &4656109785659908
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723597363357960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.80000114, y: 0.74780846, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4253734563840236}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23143475237681644
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512953707358392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 6086d770d2734a440ba7b90221d1f507, type: 2}
+  - {fileID: 2100000, guid: 097f96d1d345d459d8ff9b6c51e54fcf, type: 2}
+  - {fileID: 2100000, guid: 12dc4d979f6cf4a34badb3462b8b5181, type: 2}
+  - {fileID: 2100000, guid: b9d3e2527a9789d4bb3d40cab3d93877, type: 2}
+  - {fileID: 2100000, guid: e330b67dfcf5d44cfac5f2b5d3eb7587, type: 2}
+  - {fileID: 2100000, guid: c73cb958cff1c4c1085a1fb49d334713, type: 2}
+  - {fileID: 2100000, guid: 898c3d1e52cb746f5a3debe1b06e86a7, type: 2}
+  - {fileID: 2100000, guid: 898c3d1e52cb746f5a3debe1b06e86a7, type: 2}
+  - {fileID: 2100000, guid: d8a503c71fedb4f87bcf2900bd29d2f1, type: 2}
+  - {fileID: 2100000, guid: 6f93cf979e71a42f1b3a50a65ec5d689, type: 2}
+  - {fileID: 2100000, guid: 79ee4d132424e4273bdd62bb8dfe9aad, type: 2}
+  - {fileID: 2100000, guid: 378866c34525549a68b37f599ddd4d1a, type: 2}
+  - {fileID: 2100000, guid: 30a629ea605bdc44c952f12cfb8d7078, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33043177709732466
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512953707358392}
+  m_Mesh: {fileID: 4300002, guid: ba70bf8abec6c40839df7be11d78a3e0, type: 3}
+--- !u!65 &65356650048998076
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512953707358392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8141533, y: 1.4999992, z: 2}
+  m_Center: {x: 0.39292282, y: 0.74999946, z: 0.9999998}
+--- !u!114 &114141561125104178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512953707358392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cddd2e4faaebd154a931f8e2bd2fab26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 5
+  interestType: Snacks
+  isHacked: 0
+  userPosition: {fileID: 1723597363357960}

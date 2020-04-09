@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda436a9c8bbd4d109478acf25cd48d8, type: 3}
+  m_Name: Off Grid PB Courthouse Building Colour Palette 1
+  m_EditorClassIdentifier: 
+  current: {r: 1, g: 1, b: 1, a: 1}
+  colors:
+  - {r: 0.5471698, g: 0.46446797, b: 0.3226237, a: 1}
+  - {r: 0.9716981, g: 0.9554808, b: 0.86627805, a: 1}
+  - {r: 0.53176785, g: 0.4750801, b: 0.6415094, a: 1}
+  - {r: 0.815971, g: 0.8584906, b: 0.77345145, a: 1}
+  - {r: 0.9351989, g: 0.9433962, b: 0.91224635, a: 1}
+  - {r: 0.8396226, g: 0.7802154, b: 0.79878014, a: 1}
+  - {r: 0.9716981, g: 0.9651531, b: 0.9487807, a: 1}
+  - {r: 0.4102958, g: 0.46226418, b: 0.34233716, a: 1}
+  - {r: 0.78454494, g: 0.8207547, b: 0.615566, a: 1}
+  - {r: 0.26010147, g: 0.28718933, b: 0.3301887, a: 1}
+  - {r: 0.9175991, g: 0.9339623, b: 0.876691, a: 1}
+  - {r: 0.74012107, g: 0.82326037, b: 0.8301887, a: 1}
+  - {r: 0.694, g: 0.051, b: 0.788, a: 1}
+  - {r: 0.067, g: 0.067, b: 0.067, a: 1}
+  - {r: 0.667, g: 0.667, b: 0.667, a: 1}
+  - {r: 0.867, g: 0.867, b: 0.867, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}

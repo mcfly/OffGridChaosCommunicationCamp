@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 41c211cea209b3f43a75db3eb6620033
+timeCreated: 1464113011
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _DataTex: {fileID: 2800000, guid: 25f248695c05b534bbbaa46faa8b7efd, type: 3}
+  userData: 
+  assetBundleName: offgrid_shaders
+  assetBundleVariant: 

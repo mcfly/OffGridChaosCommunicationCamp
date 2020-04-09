@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &1986400169939382019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737205548390443028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.40413916, y: 0.026794672, z: 0.23566061}
+  m_Center: {x: -0.003109984, y: 0.013140798, z: 0.03361103}
+--- !u!114 &2769278045880126657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737205548390443028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c96f25be0f4ab64bbacf7d8ae4f32b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnMaterial: {fileID: 2100000, guid: 5ffdf9c9b8c9a0e438ff4ee2592ca00f, type: 2}
+  OffMaterial: {fileID: 2100000, guid: d18c9f10ae4958f4eaa6095fd2244cfa, type: 2}
+  PlayScreenSoundEvent: 
+  StopScreenSoundEvent: 
+  ScreenIsOn: 1
+  ScreenRenderer: {fileID: 3713921427094213728}
+  ScreenMaterialSlotNumber: 0
+--- !u!114 &3218639073294118585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3737205548390443028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb88ceda3a1e474eadf845436a92286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 5
+  typeBitField: 10
+  triggerOnce: 1
+  interactionType: 0
+  HandMarker: {fileID: 3735384281883598254}
+  ShouldPreInteract: 0
+  interactOnce: 0
+  OnInteractionCheck:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: InteractionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnInteractionStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2769278045880126657}
+        m_MethodName: Toggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: InteractionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnInteractionStop:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: InteractionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  DisplayUnityEvents: 1
+--- !u!1001 &3736060694554678610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_Name
+      value: Laptop-16-9-Hackable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_TagString
+      value: HackableDevice
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23459954921996594, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ffdf9c9b8c9a0e438ff4ee2592ca00f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+--- !u!1 &3737205548390443028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 3736060694554678610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3735384281883598254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4476518164383996, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 3736060694554678610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3713921427094213728 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23459954921996594, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 3736060694554678610}
+  m_PrefabAsset: {fileID: 0}

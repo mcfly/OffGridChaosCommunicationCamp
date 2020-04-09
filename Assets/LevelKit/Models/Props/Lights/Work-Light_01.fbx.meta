@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 8b5546761a5d8334b82dfdfdc62ead38
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hero_3Dmesh
+    100002: WorkLamp
+    100004: WorkLampWire
+    100006: //RootNode
+    100008: WorkLight
+    100010: WorkLightLamp
+    100012: WorkLightWire
+    100014: WorkLight_01
+    100016: WorkLightLamp_ _01
+    100018: WorkLightWire_01
+    100020: WorkLightLamp_ 01
+    400000: Hero_3Dmesh
+    400002: WorkLamp
+    400004: WorkLampWire
+    400006: //RootNode
+    400008: WorkLight
+    400010: WorkLightLamp
+    400012: WorkLightWire
+    400014: WorkLight_01
+    400016: WorkLightLamp_ _01
+    400018: WorkLightWire_01
+    400020: WorkLightLamp_ 01
+    2300000: Hero_3Dmesh
+    2300002: WorkLamp
+    2300004: WorkLampWire
+    2300006: WorkLight
+    2300008: WorkLightLamp
+    2300010: WorkLightWire
+    2300012: WorkLight_01
+    2300014: WorkLightLamp_ _01
+    2300016: WorkLightWire_01
+    2300018: WorkLightLamp_ 01
+    3300000: Hero_3Dmesh
+    3300002: WorkLamp
+    3300004: WorkLampWire
+    3300006: WorkLight
+    3300008: WorkLightLamp
+    3300010: WorkLightWire
+    3300012: WorkLight_01
+    3300014: WorkLightLamp_ _01
+    3300016: WorkLightWire_01
+    3300018: WorkLightLamp_ 01
+    4300000: WorkLampWire
+    4300002: WorkLamp
+    4300004: Hero_3Dmesh
+    4300006: WorkLightLamp
+    4300008: WorkLightWire
+    4300010: WorkLight
+    4300012: WorkLight_01
+    4300014: WorkLightWire_01
+    4300016: WorkLightLamp_ _01
+    4300018: WorkLightLamp_ 01
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

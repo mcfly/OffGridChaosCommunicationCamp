@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4574255220004144355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302030119732140761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a95200ea5d2c040a83cf64367d7559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powered: 1
+  active: 1
+  amok: 0
+  value: 
+  preserveActive: 1
+  preservedActive: 0
+  PowerOnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  PowerOffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  ActiveOnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  ActiveOffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AmokOnEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  AmokOffEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  RunOnceEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  SetValueEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  NPCuseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  animationItemProp: {fileID: 0}
+  slotItemProp: 0
+  bulb: {fileID: 4314751212988404101}
+  bulbOffColor: {r: 0.6745728, g: 0.8773585, b: 0.8750667, a: 0}
+  bulbOnColor: {r: 4, g: 4, b: 4, a: 0}
+  activeByDefault: 1
+  lightGO: {fileID: 4194486125941697847}
+  lightIntensityMultiplier: 0
+--- !u!1001 &4302448715925418383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1899776152677206, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_Name
+      value: HalogenSpot_Sunken-Light_Interactable_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.106
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553923523825930, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108245439351807160, guid: f38eefe24df524f3c87182a898ea70d5,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 23728637501890570, guid: f38eefe24df524f3c87182a898ea70d5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b4735d6c67db164d9d6e57e117caf37, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f38eefe24df524f3c87182a898ea70d5, type: 3}
+--- !u!1 &4302030119732140761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1899776152677206, guid: f38eefe24df524f3c87182a898ea70d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4302448715925418383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4314751212988404101 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23728637501890570, guid: f38eefe24df524f3c87182a898ea70d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4302448715925418383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &4194486125941697847 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 108245439351807160, guid: f38eefe24df524f3c87182a898ea70d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4302448715925418383}
+  m_PrefabAsset: {fileID: 0}

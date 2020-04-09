@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 3d7d205f6034e3d408f2f39844b9913e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Blind_Closed_End_L
+    100004: Blind_Closed_End_R
+    100006: Blind_Closed_M
+    100008: Blind_Stick
+    100010: Closed_Blinds
+    100012: Blind_Closed_L
+    100014: Blind_Closed_R
+    100016: Blind_Closed_Row
+    100018: Blind_Closed_Single
+    100020: Blind_Closed_Single 1
+    400000: //RootNode
+    400002: Blind_Closed_End_L
+    400004: Blind_Closed_End_R
+    400006: Blind_Closed_M
+    400008: Blind_Stick
+    400010: Closed_Blinds
+    400012: Blind_Closed_L
+    400014: Blind_Closed_R
+    400016: Blind_Closed_Row
+    400018: Blind_Closed_Single
+    400020: Blind_Closed_Single 1
+    2100000: Diffuse-Vertex2
+    2100002: Diffuse-Vertex
+    2100004: Diffuse-Vertex1
+    2300000: Blind_Closed_End_L
+    2300002: Blind_Closed_End_R
+    2300004: Blind_Closed_M
+    2300006: Blind_Stick
+    2300008: Closed_Blinds
+    2300010: Blind_Closed_L
+    2300012: Blind_Closed_R
+    2300014: Blind_Closed_Row
+    2300016: Blind_Closed_Single
+    2300018: Blind_Closed_Single 1
+    3300000: Blind_Closed_End_L
+    3300002: Blind_Closed_End_R
+    3300004: Blind_Closed_M
+    3300006: Blind_Stick
+    3300008: Closed_Blinds
+    3300010: Blind_Closed_L
+    3300012: Blind_Closed_R
+    3300014: Blind_Closed_Row
+    3300016: Blind_Closed_Single
+    3300018: Blind_Closed_Single 1
+    4300000: Blind_Closed_M
+    4300002: Closed_Blinds
+    4300004: Blind_Closed_End_L
+    4300006: Blind_Closed_End_R
+    4300008: Blind_Stick
+    4300010: Blind_Closed_Row
+    4300012: Blind_Closed_L
+    4300014: Blind_Closed_Single
+    4300016: Blind_Closed_R
+    4300018: Blind_Closed_Single
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diffuse-Vertex
+    second: {fileID: 2100000, guid: 6086d770d2734a440ba7b90221d1f507, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

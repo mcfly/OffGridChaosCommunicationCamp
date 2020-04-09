@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &42497984991877105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2950016281870359156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c96f25be0f4ab64bbacf7d8ae4f32b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnMaterial: {fileID: 2100000, guid: 65e6dadb69c318c4ca6f3273937ced43, type: 2}
+  OffMaterial: {fileID: 2100000, guid: f6c752287d44bad4ea325adc98d38982, type: 2}
+  PlayScreenSoundEvent: 
+  StopScreenSoundEvent: 
+  ScreenIsOn: 0
+  ScreenRenderer: {fileID: 2928902060881458994}
+  ScreenMaterialSlotNumber: 0
+--- !u!114 &5451263832929424352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2950016281870359156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb88ceda3a1e474eadf845436a92286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 5
+  typeBitField: 10
+  triggerOnce: 1
+  interactionType: 0
+  HandMarker: {fileID: 2947296865709189708}
+  ShouldPreInteract: 0
+  interactOnce: 0
+  OnInteractionCheck:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: InteractionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnInteractionStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 42497984991877105}
+        m_MethodName: Toggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: InteractionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnInteractionStop:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: InteractionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  DisplayUnityEvents: 1
+--- !u!1001 &2951780099255252480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_Name
+      value: DevLaptop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160867153804614, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_TagString
+      value: HackableDevice
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9517096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.30699977
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 144.24301
+      objectReference: {fileID: 0}
+    - target: {fileID: 4510287061783166, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764105701387380, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764105701387380, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_TagString
+      value: HackableDevice
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764105701387380, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+      propertyPath: m_Name
+      value: DevLaptop
+      objectReference: {fileID: 0}
+    - target: {fileID: 23459954921996594, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6c752287d44bad4ea325adc98d38982, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6c10c65934344dc45a7d45eb0c6c0e63, type: 3}
+--- !u!1 &2950016281870359156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1764105701387380, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 2951780099255252480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2947296865709189708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4559391908617292, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 2951780099255252480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2928902060881458994 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23459954921996594, guid: 6c10c65934344dc45a7d45eb0c6c0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 2951780099255252480}
+  m_PrefabAsset: {fileID: 0}

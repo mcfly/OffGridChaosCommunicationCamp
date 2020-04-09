@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 9433506988caa466cb408beee5a3a0e2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Glasses_Frame
+    100004: Glasses_LeftTemple
+    100006: Glasses_RightTemple
+    100008: Glasses_RightTemple.000
+    100010: Glasses_RightTemple.001
+    100012: Glasses-LeftTemple_01
+    100014: Glasses-RightTemple_01
+    100016: Glasses_Frame_01
+    400000: //RootNode
+    400002: Glasses_Frame
+    400004: Glasses_LeftTemple
+    400006: Glasses_RightTemple
+    400008: Glasses_RightTemple.000
+    400010: Glasses_RightTemple.001
+    400012: Glasses-LeftTemple_01
+    400014: Glasses-RightTemple_01
+    400016: Glasses_Frame_01
+    2100000: Glass-Vertex
+    2100002: Metallic-Vertex
+    2300000: //RootNode
+    2300002: Glasses_Frame
+    2300004: Glasses_LeftTemple
+    2300006: Glasses_RightTemple
+    2300008: Glasses_RightTemple.000
+    2300010: Glasses_RightTemple.001
+    2300012: Glasses-LeftTemple_01
+    2300014: Glasses-RightTemple_01
+    2300016: Glasses_Frame_01
+    3300000: //RootNode
+    3300002: Glasses_Frame
+    3300004: Glasses_LeftTemple
+    3300006: Glasses_RightTemple
+    3300008: Glasses_RightTemple.000
+    3300010: Glasses_RightTemple.001
+    3300012: Glasses-LeftTemple_01
+    3300014: Glasses-RightTemple_01
+    3300016: Glasses_Frame_01
+    4300000: Glasses_Old
+    4300002: Glasses_Frame
+    4300004: Glasses_RightTemple
+    4300006: Glasses_LeftTemple
+    4300008: Glasses_RightTemple.001
+    4300010: Glasses_RightTemple.000
+    4300012: Glasses-lens_01
+    4300014: Glasses_Frame_01
+    4300016: Glasses-RightTemple_01
+    4300018: Glasses-LeftTemple_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass-Vertex
+    second: {fileID: 2100000, guid: 30a629ea605bdc44c952f12cfb8d7078, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallic-Vertex
+    second: {fileID: 2100000, guid: 4f5eb8b6222c57346a7cc4925762e4a5, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

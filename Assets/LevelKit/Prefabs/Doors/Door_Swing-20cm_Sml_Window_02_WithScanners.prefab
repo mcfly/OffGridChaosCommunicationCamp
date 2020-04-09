@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6140082414566191759
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 985032886605870605, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_Name
+      value: Door_Swing-20cm_Sml_Window_02 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b4c0985c836f7844bead1828355715a, type: 3}
+--- !u!4 &6380346712758332944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 990369617343782047, guid: 7b4c0985c836f7844bead1828355715a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6140082414566191759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8218522039789521568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6380346712758332944}
+    m_Modifications:
+    - target: {fileID: 3399409034779972921, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_Name
+      value: KeycardScanners_20cmWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694820894846791399, guid: b7bf1b69dfe403a4aa4b080114ef8409,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7bf1b69dfe403a4aa4b080114ef8409, type: 3}

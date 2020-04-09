@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FrostedGlassWithText
+  m_Shader: {fileID: 4800000, guid: a53d66d13544b114689d5160abb864df, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 34598662602230e4281f2aba2397b578, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DataTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b1a5a58c94dc58d4aafc12fb82edb34d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LightTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 816a31967ef82d443b12be03b4635927, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _RimPower
+        second: 3
+      data:
+        first:
+          name: _Shininess
+        second: .0146796955
+      data:
+        first:
+          name: _Illumination
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .869403005
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .755298436, g: .926436245, b: .933823526, a: .282352954}
+      data:
+        first:
+          name: _DataColor
+        second: {r: 0, g: .70588237, b: 1, a: .243137255}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
