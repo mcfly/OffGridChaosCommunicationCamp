@@ -17,6 +17,9 @@
 /Assets/Levels/**
 !/Assets/Levels/CCCampMod/
 !/Assets/Levels/CCCampMod/**
+!/Assets/Levels/LevelKit/
+!/Assets/Levels/LevelKit/**
+
 
 ### All the normal ignore stuff
 
