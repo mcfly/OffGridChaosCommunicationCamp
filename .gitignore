@@ -18,9 +18,11 @@
 !/Assets/Levels/CCCampMod/
 !/Assets/Levels/CCCampMod/**
 
+### For now we have to leave LevelKit out so as to make sure the mod is forward compatible
+### We will look to create a LevelKit repo and structure to support this in future
 ### Include LevelKit
-!/Assets/LevelKit/
-!/Assets/LevelKit/**
+###!/Assets/LevelKit/
+###!/Assets/LevelKit/**
 
 
 ### All the normal ignore stuff
