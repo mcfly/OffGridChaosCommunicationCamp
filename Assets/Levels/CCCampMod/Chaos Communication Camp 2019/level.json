@@ -1,12 +1,12 @@
 {
     "name": "Chaos Communication Camp",
-    "sceneName": "MASTER-Chaos Communication Camp 2019",
+    "sceneName": "MASTER-Chaos Communication Camp",
     "description": "A recreation",
     "district": "Residential",
     "location": "Ziegeleipark Mildenberg, Zehdenick, Germany, Earth, Milky Way",
     "imagePath": "",
     "assetBundles": [
-        "master-chaos communication camp 2019"
+        "master-chaos communication camp"
     ],
     "missionScripts": [
         "ChaosCommunicationCamp2019_mission.lua"
