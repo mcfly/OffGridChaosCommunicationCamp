@@ -9,7 +9,7 @@
         "master-chaos communication camp"
     ],
     "missionScripts": [
-        "ChaosCommunicationCamp2019_mission.lua"
+        "ChaosCommunicationCamp_mission.lua"
     ],
     "preconditions": {
         "keyArray": [],
