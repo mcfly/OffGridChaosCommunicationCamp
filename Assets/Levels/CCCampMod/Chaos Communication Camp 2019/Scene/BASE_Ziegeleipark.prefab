@@ -30583,7 +30583,6 @@ GameObject:
   - component: {fileID: 1730758140}
   - component: {fileID: 1730758139}
   - component: {fileID: 1730758138}
-  - component: {fileID: 1730758137}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -30717,19 +30716,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 00000000010000000200000003000000
---- !u!65 &1730758137
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730758135}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 100.0258, y: 0.39331207, z: 99.99966}
-  m_Center: {x: 50.013016, y: -0.14380755, z: 50.000225}
 --- !u!114 &1402427852
 MonoBehaviour:
   m_ObjectHideFlags: 0
