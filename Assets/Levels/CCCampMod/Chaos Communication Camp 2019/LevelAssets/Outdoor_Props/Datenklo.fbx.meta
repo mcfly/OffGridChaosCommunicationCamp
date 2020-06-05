@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: -white
+    second: {fileID: 2100000, guid: b00a808e3369bfa42857067f0895ab25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Diffuse-Vertex
     second: {fileID: 2100000, guid: 6086d770d2734a440ba7b90221d1f507, type: 2}
   - first:
@@ -17,8 +22,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Specular-High-Vertex
-    second: {fileID: 2100000, guid: 7d10b3ba85bb1584e95f39d06e8187f2, type: 2}
+      name: Specular-High-Vertex-blue
+    second: {fileID: 2100000, guid: 7b94cdf90d11da94f9a08a75a3734be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Specular-High-Vertex-darkblue
+    second: {fileID: 2100000, guid: fed98f91cff5b36478c171c4654bb0d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Specular-High-Vertex-darkgrey
+    second: {fileID: 2100000, guid: 6ce817aa775ae4342902acf84cb700ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Specular-High-Vertex-lightgrey
+    second: {fileID: 2100000, guid: c8a773830c15aeb45b321dd1d1cfb437, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
