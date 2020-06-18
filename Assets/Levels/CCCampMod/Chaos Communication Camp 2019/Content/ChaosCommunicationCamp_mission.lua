@@ -29,18 +29,18 @@ mission = {
 		laurilove = {
 			displayName = "nsh",
 			internalName = "lauri",
-			agent = "Guard.lua",
-			characterType = "enemy",
+			agent = "LauriAgent.lua",
+			characterType = "npc",
 			profile = "LauriLove",
 			prefab = "Masculine_Med_OpenShirt_Enemy",
-			patrolroute = {
+			activity = {
 				points = {
 					"LauriPatrol01",
 					"LauriPatrol02",
 				},
 				cyclic = false,
 			},
-			spawnpoint = "mcflySpawn",
+			spawnpoint = "LauriSpawn",
 		},
 	},
 
@@ -142,6 +142,21 @@ function StartMission()
 end
 
 -- Triggers
+
+-- Talk to secretary with intercom in Reception
+MissionObjects["Lauri_Speakerpram"].OnStopInteracting = function(name)
+	if name == Player.GetName() then
+		--TODO this is temp and so the states and audio need updating
+	--	if Mission.GetBool("useIntercomObjectiveCompleted") then
+			Sound.TriggerEvent("Radio_Music_Set_Station_UpBeat_1", "Lauri_Speakerpram")
+			Sound.TriggerEvent("Play_Radio_Music_On", "Lauri_Speakerpram")
+			AI.AlterNPCWorldState("lauri", "state", true)
+			print("started techno trolley")
+		else
+				-- do nothing
+		end
+	end
+
 MissionObjects["ExitTrigger"].OnTriggerEnter = function(name)
 	if name == Player.GetName() then
 		Mission.MissionCompleted()
