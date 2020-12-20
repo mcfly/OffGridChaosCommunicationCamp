@@ -13,28 +13,28 @@ Character = {
 		-- InNeedOfToilet?
 	},
 	Colors = {
-		{data = { 1, 0.8004598, 0.1490196, 1 }, tags = {"FavouriteColor"}}
+		{data = { 255, 0, 0, 1 }, tags = {"FavouriteColor"}}
 	},
 
 	Profile = {
 
 --[[Names]]
-		{ data = "Ms", tags = {"Title"} },
+		{ data = "Mr", tags = {"Title"} },
 		{ data = "Brian", tags = {"FirstName", "name"} },
 		{ data = "mc.fly", tags = {"LastName", "name"} },
 		{ data = {"mc.fly"}, tags = {"NickName", "name"} },
 		{ data = {"ingrate", "disease", "fish", "plum", "lemon", "sillypants"}, tags = {"DerogatoryName"} },
 		{ data = {"Deary","Cuteypie","Sugar", "Honey",}, tags = {"HusbandWifePetname", "name"} },
-		{ data =  {"mc.fly", "cocko", "henryhoover"}, tags = {"Usernames"} },
-		{ data = "mc.fly", tags = {"Screennames"} },
+		{ data =  {"mc.fly", "elmar", "EL"}, tags = {"Usernames"} },
+		{ data = "mc.fly", "Eris", "Henry", "EL"= {"Screennames"} },
 		-- / account names (could be generated from first name 1st char "." + Lastname etc)
 
 
 --[[Accounts]]
 		-- Social Networking Sites:
-		{ data = {"@gmc.net", "@coolmail.com"}, tags = {"EmailProviders"} },
+		{ data = {"@mc.fly", "@milliways.info"}, tags = {"EmailProviders"} },
 		-- Websites, Favorite Game Servers, Owned Game Servers
-		{ data = {"food4you.com"}, tags = {"WebsiteName"} },
+		{ data = {"milliways.info"}, tags = {"WebsiteName"} },
 
 
 -- [[Family and relationshsips]]
@@ -46,26 +46,30 @@ Character = {
 		-- TODO Figues out if this categorisation is useful?
 		--Do we also need "RelativeRelationship"?
 				-- Parent Names:
-		{ data = {"Samuel"}, tags = {"RelativeName", "Father"} },
-		{ data = {"Stacey"}, tags = {"RelativeName", "Mother"} },
+		{ data = {"Elmar"}, tags = {"RelativeName", "Father"} },
+		{ data = {"Brigitte"}, tags = {"RelativeName", "Mother"} },
 				-- Siblings:
-		{ data = {"Kat"}, tags = {"RelativeName", "Sister"} },
+		{ data = {"Tobias"}, tags = {"RelativeName", "Brother"} },
 		{ data = "Michael", tags = {"friend", "BestFriend"} },
 		-- Pet-type
-		{	data = {"Cat"}, tags = {"PetAnimalType"} },
+		{	data = {"Dog"}, tags = {"PetAnimalType"} },
 		-- Pet names
-		{	data = {"Benny"}, tags = {"PetAnimalName"} },
+		{	data = {"Dusty"}, tags = {"PetAnimalName"} },
 --[[ Sensitive info]]
-		{ data = {"37,new Springs Ave,8A2E"}, tags = {"HomeAddress"} },
+		{ data = {"114, Forrest Street, 11206"}, tags = {"HomeAddress"} },
 		-- Addresses, current and past
 		-- D.O.B
+		{ data = {23. May 1984} },
 		-- Birthplace
+		{ data = {"Treibestraße 9, 3200 Hildesheim"}, tags = {"Birthplace"} },
 		-- SSN (Social Security Numbers):
 		-- (Credit Card details)
-		{ data = {"SmartBanking"}, tags = {"BankName"} },
+		{ data = {"HildesheimerBankHaus"}, tags = {"BankName"} },
 		-- Passwords
 		-- Phone Cell, landline#:
-		-- Screwgle Advertising Id 81-4v678462-b387a36-3756nd-274
+		{ data == {"+49506485070"}, tags = {"PhoneNumber"} }
+		-- Screwgle Advertising Id 23-4v678462-b387a36-3756nd-423
+		{ data == {"23-4v678462-b387a36-3756nd-423"}, tags = {"ScrewgleAdvertisingId"} }
 
 --[[ Background ]]
 
@@ -100,17 +104,17 @@ Character = {
 
 
 --[[Exclamations]]
-		{ data = "bejesus", tags = {"FavouriteSwear"} },
+		{ data = "godverdamme", tags = {"FavouriteSwear"} },
 
 		{ data = {
-			"Golly",
-			"Oh man",
-			"Cripes",
-			"Gosh",
-			"Geez",
-			"Geewhiz",
+			"Uuh Yeah",
+			"Hmmmm",
+			"Hallo",
+			"sheet",
+			"oh god",
+			"Heck",
 			"Grrr",
-			"gahhh!",
+			"Uh-oh",
 			"Ahhh",
 			"WTF",
 			},
@@ -125,57 +129,100 @@ Character = {
 
 		},
 		{ data = {
-			"#ROFL",
-			"#Grrr",
+			"imho",
+			"right?",
+			"ok",
+			"aye",
+			"oder?",
+			},
+			tags = {"post-fixes"}
+
+		},
+		{ data = {
+			"#ROFTL",
+			"#mad",
 			"LMAO",
 			"LOL",
-			"#Tots",
-			"#BigGuns",
-			"#Life",
+			"#milliways",
+			"#Lebe",
 			"#WTF",
 			},
 			tags = {"hashtag"}
 		},
 
 --sayings
+		{ data = {
+			"Whisky is life",
+			"We are Legion. We do not forgive. We do not forget.",
+			"Puff puff pass",
+			"want a beer? Get to the tap and get one",
+			"always sanatize your input",
+			"always escape your output",
+			"Die Nacht ist nicht allein zum Schlafen da",
+			"look who do you trust",
+			"where is your towel?",
+			"willste nen Bier?",
+			"Perimeter security is dead",
+			"Run your own fucking infrastructure",
+			},
+			tags = {"sayings"}
+
+		},
 
 --quotes
+		{ data = {
+			"Whisky is life",
+			"where's your towel?",
+			"We are Legion. We do not forgive. We do not forget.",
+			"the usenes is full. Go away.",
+			"which BBS were you on?",
+			"Perimeter security is dead",
+			"Run your own fucking infrastructure",
+			},
+			tags = {"quotes"}
+
+		},
 
 
 --[[Consumeables]]
 -- Singular
 
 		{ data = {
-			"chocolate bar",
-			"apple",
-			"slice of bread",
-			"haggis"
+			"Burger",
+			"slice of sourdough bread",
+			"Schweinebraten",
+			"Schnitzel"
 			},
 			tags = {"FavouriteFood", "food", "singular"} },
 
 -- Plural
-		{ data = "pistachios", tags = {"FavouriteSnack", "food", "plural"} },
+		{ data = {"nutz"
+			"Cherries"
+			},
+			tags = {"FavouriteSnack", "food", "plural"} },
 
 -- Drink
 		{ data = {
-			"Irn Bru",
-			"lager",
-			"blood",
+			"Club Mate",
+			"Bier",
+			"Whisky",
 			},
 			tags = {"FavouriteDrink", "drink"} },
 
 --[[ Verbs and Actions - past tense ]]
 		{ data = {
-			"ate",
+			"worked",
+			"wrote a repot",
+			"wrote a exploit",
 			"had lunch",
 			"went for a walk",
 			"got up",
-			"travelled to Serbia",
-			"broke into your house",
-			"repainted the house",
+			"travelled to Austria",
+			"broke into your box",
+			"repainted the hackerspace",
 			"spoke to my doctor",
 			"partied hard",
-			"released a mobile game",
+			"released a weird game",
 			"checked the scores",
 			"procrastinated",
 			},

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1652096011
+CRC: 2956575142
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 350ae83f0850d1bb8cdc7887e6dc9817
+    Hash: 25e3d6c9202bc2a0859c925f2b13c518
   TypeTreeHash:
     serializedVersion: 2
     Hash: c134ab15a31a278f1d11848a618e7fb2
@@ -83,5 +83,5 @@ Assets:
 - Assets/Levels/CCCampMod/Chaos Communication Camp 2019/Scene/MASTER-Chaos Communication
   Camp.unity
 Dependencies:
-- C:/Users/ATNMY/Projects/CCC-sourcetree/Assets/Levels/CCCampMod/Chaos Communication
+- F:/repos/OffGridChaosCommunicationCamp/Assets/Levels/CCCampMod/Chaos Communication
   Camp 2019/Bundles/offgrid_shaders
