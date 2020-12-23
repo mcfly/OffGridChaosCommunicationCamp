@@ -12,20 +12,22 @@ mission = {
 
 -- Character definitions:
 	characters = {
-		joe = {
+		player = {
 			displayName = "Joe Harman",
-			internalName = "Joe",
+			internalName = "player",
 			characterType = "player",
-			prefab = "player",
+			prefab = "Player_Joe",
 			spawnpoint = "PlayerSpawn",
 		},
-		-- mcfly = {
-		-- 	displayName = "mc.fly",
-		-- 	internalName = "mcfly",
-		-- 	characterType = "enemy",
-		-- 	--prefab = "mcfly",
-		-- 	spawnpoint = "mcflySpawn",
-		-- },
+		mcfly = {
+			displayName = "mc.fly",
+			internalName = "mcfly",
+			agent = "LauriAgent.lua",
+			characterType = "enemy",
+			profile = "LauriLove",
+			prefab = "Masculine_Med_TShirt_NPC",
+			spawnpoint = "mcflySpawn",
+		},
 		laurilove = {
 			displayName = "nsh",
 			internalName = "lauri",
@@ -114,13 +116,18 @@ Table key is used as the internalName value on Unity side.
 function SetupMission()
 
 	-- Add all characters:
-	for k, character in pairs(mission.characters) do
-		Mission.AddCharacter(character)
-	end
+	--for k, character in pairs(mission.characters) do
+	--	Mission.SpawnCharacter(character)
+	--end
+
+Mission.SpawnCharacter("player")
+Mission.SpawnCharacter("lauri")
+Mission.SpawnCharacter("mcfly")
+
 
 	-- Add all networks:
 	for k, network in pairs(mission.networks) do
-	Mission.AddNetwork(network)
+--	Mission.AddNetwork(network)
 	end
 
 	Mission.MissionStarted()
@@ -137,13 +144,32 @@ function StartMission()
 	Player.ClearDataFiles()
 
 	-- Set up player's network connections:
-	Mission.ConnectToNetwork(mission.characters.joe, mission.networks.Semaeopus4G.name, mission.networks.Semaeopus4G.userAccessKey )
+	Network.ConnectToNetwork({
+		"player", "MeshleaksSecureDrop", "Smedley", "Jed", "Janine",
+		"secretary", "guard1", "guard2",
+		 "employee_isp_1", "guard_isp_1",
+		"Boss_Computer", "Joe_Computer", "Printer", "DevLaptop",
+		 "BossAlarm", "Laptop_ISP_ServerRoom_1"
+	}, "Semaeopus4G", "user")
+
+	-- Network.ConnectToNetwork({
+	-- 	"player", "MeshleaksSecureDrop",
+	-- 	"secretary", "guard1", "guard2",
+	-- 	"Boss_Computer", "Joe_Computer", "Printer", "DevLaptop",
+	-- 	 "BossAlarm", "Laptop_ISP_ServerRoom_1"
+	--  }, "WorkWiFi", "user")
+	--
+	-- Network.ConnectToNetwork({
+	-- 	"employee_isp_1", "guard_isp_1",
+	-- }, "FirestreamWiFi", "user")
+	--
+	-- Network.ConnectToNetwork("MeshleaksSecureDrop", "MESH", "user")
+
 
 end
 
 -- Triggers
 
--- Talk to secretary with intercom in Reception
 MissionObjects["Lauri_Speakerpram"].OnStopInteracting = function(name)
 	if name == Player.GetName() then
 		--TODO this is temp and so the states and audio need updating
