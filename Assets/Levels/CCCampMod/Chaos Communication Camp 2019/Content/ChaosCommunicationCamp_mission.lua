@@ -34,7 +34,7 @@ mission = {
 			agent = "LauriAgent.lua",
 			characterType = "npc",
 			profile = "LauriLove",
-			prefab = "Masculine_Med_OpenShirt_Enemy",
+			prefab = "Masculine_Med_OpenShirt_NPC",
 			activity = {
 				points = {
 					"LauriPatrol01",
