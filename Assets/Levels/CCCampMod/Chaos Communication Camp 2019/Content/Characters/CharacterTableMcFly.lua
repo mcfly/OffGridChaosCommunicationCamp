@@ -13,7 +13,7 @@ Character = {
 		-- InNeedOfToilet?
 	},
 	Colors = {
-		{data = { 255, 0, 0, 1 }, tags = {"FavouriteColor"}}
+		{data = { Color.Purple }, tags = {"FavouriteColor"}}
 	},
 
 	Profile = {
@@ -26,7 +26,7 @@ Character = {
 		{ data = {"ingrate", "disease", "fish", "plum", "lemon", "sillypants"}, tags = {"DerogatoryName"} },
 		{ data = {"Deary","Cuteypie","Sugar", "Honey",}, tags = {"HusbandWifePetname", "name"} },
 		{ data =  {"mc.fly", "elmar", "EL"}, tags = {"Usernames"} },
-		{ data = "mc.fly", "Eris", "Henry", "EL"= {"Screennames"} },
+		{ data = {"mc.fly", "Eris", "Henry", "EL"}, tags = {"Screennames"} },
 		-- / account names (could be generated from first name 1st char "." + Lastname etc)
 
 
@@ -59,7 +59,7 @@ Character = {
 		{ data = {"114, Forrest Street, 11206"}, tags = {"HomeAddress"} },
 		-- Addresses, current and past
 		-- D.O.B
-		{ data = {23. May 1984} },
+		{ data = {"23. May 1984"}, tags = {"Birthdate"} },
 		-- Birthplace
 		{ data = {"Treibestraße 9, 3200 Hildesheim"}, tags = {"Birthplace"} },
 		-- SSN (Social Security Numbers):
@@ -67,9 +67,9 @@ Character = {
 		{ data = {"HildesheimerBankHaus"}, tags = {"BankName"} },
 		-- Passwords
 		-- Phone Cell, landline#:
-		{ data == {"+49506485070"}, tags = {"PhoneNumber"} }
+		{ data == {"+49506485070"}, tags = {"PhoneNumber"} },
 		-- Screwgle Advertising Id 23-4v678462-b387a36-3756nd-423
-		{ data == {"23-4v678462-b387a36-3756nd-423"}, tags = {"ScrewgleAdvertisingId"} }
+		{ data == {"23-4v678462-b387a36-3756nd-423"}, tags = {"ScrewgleAdvertisingId"} },
 
 --[[ Background ]]
 
@@ -191,13 +191,14 @@ Character = {
 			"Burger",
 			"slice of sourdough bread",
 			"Schweinebraten",
-			"Schnitzel"
+			"Schnitzel",
 			},
 			tags = {"FavouriteFood", "food", "singular"} },
 
 -- Plural
-		{ data = {"nutz"
-			"Cherries"
+		{ data = {
+			"nutz",
+			"Cherries",
 			},
 			tags = {"FavouriteSnack", "food", "plural"} },
 

@@ -23,17 +23,17 @@ mission = {
 			displayName = "mc.fly",
 			internalName = "mcfly",
 			agent = "LauriAgent.lua",
-			characterType = "enemy",
-			profile = "LauriLove",
+			characterType = "npc",
+			profile = "CharacterTableMcFly.lua",
 			prefab = "Masculine_Med_TShirt_NPC",
 			spawnpoint = "mcflySpawn",
 		},
 		laurilove = {
 			displayName = "nsh",
-			internalName = "lauri",
+			internalName = "laurilove",
 			agent = "LauriAgent.lua",
 			characterType = "npc",
-			profile = "LauriLove",
+			profile = "LauriLove.lua",
 			prefab = "Masculine_Med_OpenShirt_NPC",
 			activity = {
 				points = {
@@ -121,7 +121,7 @@ function SetupMission()
 	--end
 
 Mission.SpawnCharacter("player")
-Mission.SpawnCharacter("lauri")
+Mission.SpawnCharacter("laurilove")
 Mission.SpawnCharacter("mcfly")
 
 
@@ -145,11 +145,7 @@ function StartMission()
 
 	-- Set up player's network connections:
 	Network.ConnectToNetwork({
-		"player", "MeshleaksSecureDrop", "Smedley", "Jed", "Janine",
-		"secretary", "guard1", "guard2",
-		 "employee_isp_1", "guard_isp_1",
-		"Boss_Computer", "Joe_Computer", "Printer", "DevLaptop",
-		 "BossAlarm", "Laptop_ISP_ServerRoom_1"
+		"player", "laurilove", "mcfly",
 	}, "Semaeopus4G", "user")
 
 	-- Network.ConnectToNetwork({
@@ -176,7 +172,7 @@ MissionObjects["Lauri_Speakerpram"].OnStopInteracting = function(name)
 	--	if Mission.GetBool("useIntercomObjectiveCompleted") then
 			Sound.TriggerEvent("Radio_Music_Set_Station_UpBeat_1", "Lauri_Speakerpram")
 			Sound.TriggerEvent("Play_Radio_Music_On", "Lauri_Speakerpram")
-			AI.AlterNPCWorldState("lauri", "state", true)
+			AI.AlterNPCWorldState("laurilove", "Danced", false)
 			print("started techno trolley")
 		else
 				-- do nothing
