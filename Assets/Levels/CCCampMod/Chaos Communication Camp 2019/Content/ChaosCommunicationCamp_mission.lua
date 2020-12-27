@@ -101,9 +101,8 @@ mission = {
 			spawnpoint = "BarrettSpawn",
 			activity = {
 				points = {
-					"TechnoTrolley",
-					"Computer",
-					"Snacks",
+					"LauriPatrol01",
+					"LauriPatrol02",
 				},
 				cyclic = false,
 			},
@@ -313,13 +312,17 @@ Table key is used as the internalName value on Unity side.
 -- Networks:
 --[[ types: 0 = mobile, 1 = WiFi, 2 = mesh ]]--
 	networks = {
+		-- Semaeopus4G = {
+		-- 	name = "Semaeopus4G",
+		-- 	networkType = 0,
+		-- 	allowPlayerDisconnect = false,
+		-- 	userAccessKey = "user",
+		-- 	adminAccessKey = "admin",
+		-- 	rootAccessKey = "root",
+		-- },
 		Semaeopus4G = {
-			name = "Semaeopus4G",
-			networkType = 0,
+			networkType = NetworkType.mobile,
 			allowPlayerDisconnect = false,
-			userAccessKey = "user",
-			adminAccessKey = "admin",
-			rootAccessKey = "root",
 		},
 	},
 
@@ -340,6 +343,14 @@ Table key is used as the internalName value on Unity side.
 	},
 
 	devices = {
+		LawfulInterceptBeerTapServer = {
+			script = "LawfulInterceptBeerTap.lua",
+			hackable = true,
+		},
+		DevMachine = {
+			script = "DevMachine.lua",
+			hackable = true,
+		},
 
 	},
 }
@@ -363,9 +374,9 @@ end
 
 
 	-- Add all networks:
-	for k, network in pairs(mission.networks) do
---	Mission.AddNetwork(network)
-	end
+	-- for k, network in pairs(mission.networks) do
+	-- 	Mission.AddNetwork(network)
+	-- end
 
 	Mission.MissionStarted()
 end
@@ -385,9 +396,11 @@ function StartMission()
 		"player",
 		"laurilove",
 		"mcfly",
-		"JakeDavis", 
+		"JakeDavis",
 		"BarrettBrown",
 		"BiellaColeman",
+		"DevMachine",
+		"LawfulInterceptBeerTapServer",
 	}, "Semaeopus4G", "user")
 
 	-- Network.ConnectToNetwork({
@@ -402,6 +415,7 @@ function StartMission()
 	-- }, "FirestreamWiFi", "user")
 	--
 	-- Network.ConnectToNetwork("MeshleaksSecureDrop", "MESH", "user")
+	Mission.DevicesConnected()
 
 
 end

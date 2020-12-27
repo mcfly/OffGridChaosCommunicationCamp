@@ -273,7 +273,7 @@ Agent =
     --     { state = "usedReceptionDesk", value = false},
     --   }
     -- },
-    {-- loop using beer tap, whisky bottle and computer
+    {-- loop using beer tap, whisky bottle and DevMachine
       goal =
       {
         { state = "usedLawfulInterceptBeerTap", value = true },
@@ -285,8 +285,8 @@ Agent =
       onCompletion =
       {
         { state = "usedLawfulInterceptBeerTap", value = false },
-        { state = "WhiskyBottlesInterest", value = false },
-        { state = "usedComputer", value = false },
+        { state = "usedWhiskyBottlesInterest", value = false },
+        { state = "usedDevMachine", value = false },
       }
     },
     {-- this is a backstop goal that sends the NPC to the dest of everything else fails
@@ -326,13 +326,13 @@ Agent =
     },
     {--Printer Interest Point
       interest = "WhiskyBottlesInterest",
-      required = { state = "usedComputer", value = true },
+      required = { state = "usedDevMachine", value = true },
       -- TODO This event is a placeholder - Audio events need setting up to work in CanUse actions (with interest point handling the event based on its state?)
       audio = "Play_VO_Secretary_BloodyPrinter",
       gesture = "StandingLookAtHipHeight",
     },
-    {--Computer Interest Point
-      interest = "Computer",
+    {--DevMachine Interest Point
+      interest = "DevMachine",
       -- TODO This event is a placeholder - Audio events need setting up to work in CanUse actions (with interest point handling the event based on its state?)
       audio = "Play_VO_Secretary_Didntknowyouwherein",
       gesture = "StandingTypingCalm",
