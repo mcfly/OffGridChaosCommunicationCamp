@@ -26,6 +26,13 @@ mission = {
 			characterType = "npc",
 			profile = "CharacterTableMcFly.lua",
 			prefab = "Masculine_Med_TShirt_NPC",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
 			spawnpoint = "mcflySpawn",
 		},
 		laurilove = {
@@ -44,6 +51,234 @@ mission = {
 			},
 			spawnpoint = "LauriSpawn",
 		},
+		--[[ FRIENDLY CHARACTERS ]]
+		JakeDavis = {
+			displayName = "Jake Davis",
+			internalName = "JakeDavis",
+			characterType = "npc",
+			prefab = "Masculine_Med_BomberJacket_NPC",
+			profile = "LauriLove.lua",
+			agent = "LauriAgent.lua",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+			spawnpoint = "JakeSpawn",
+		},
+		BiellaColeman = {
+			displayName = "Biella Coleman",
+			internalName = "BiellaColeman",
+			characterType = "npc",
+			prefab = "Feminine_Med_CardiganNecklace_NPC",
+			-- colorTexture = "Cameos/March_Col.png",
+			-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+			profile = "LauriLove.lua",
+			agent = "LauriAgent.lua",
+			spawnpoint = "BiellaSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
+		BarrettBrown = {
+			displayName = "Barrett Brown",
+			characterType = "npc",
+			prefab = "Masculine_Med_CasualBlazer_NPC",
+			-- colorTexture = "Cameos/March_Col.png",
+			-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "BarrettSpawn",
+			activity = {
+				points = {
+					"TechnoTrolley",
+					"Computer",
+					"Snacks",
+				},
+				cyclic = false,
+			},
+		},
+		-- Shad = {
+		-- 	displayName = "Shad",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_CasualJumper_NPC",
+		-- 	-- colorTexture = "Cameos/March_Col.png",
+		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+		-- 	profile = "Cameos/Shad.lua",
+		-- 	headProps = {
+		-- 	--	"﻿M_Med_Hair-Short-Fringe_01", --TODO work out why missing
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_04",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 			},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- DarrenMartyn = {
+		-- 	displayName = "Darren Martyn",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_CoatScarf_NPC",
+		-- 	-- colorTexture = "Cameos/March_Col.png",
+		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+		-- 	profile = "Cameos/DarrenMartyn.lua",
+		-- 	headProps = {
+		-- 		--"﻿",
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_05",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 			},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- MarchOneill = {
+		-- 	displayName = "March O'neill",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_LeatherJacket_NPC",
+		-- 	-- colorTexture = "Cameos/March_Col.png",
+		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+		-- 	profile = "Cameos/MarchOneill.lua",
+		-- 	headProps =
+		-- 	{
+		-- 		-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_08",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- EmmanuelGoldstein = {
+		-- 	displayName = "Emmanuel Goldstein",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Masculine_Med_LongJacket_NPC",
+		-- 	prefab = "Masculine_Med_LongJacket-2600-Gasmask_NPC",
+		-- 	-- colorTexture = "Cameos/LongJacket_Col_2600.png",
+		-- 	-- metalSmoothTexture = "LongJacket_Met_2600.png",
+		-- 	profile = "Cameos/EmmanuelGoldstein.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_FawkesHat",
+		-- 	-- "M_Med_Anonmask",
+		-- 	-- "LongHair",
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_09",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- KyleDrosdick = {
+		-- 	displayName = "Kyle Drosdick",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Masculine_Med_LongJacket_NPC",
+		-- 	prefab = "Masculine_Med_LongJacket-2600-Hat_NPC",
+		-- 	-- colorTexture = "Cameos/LongJacket_Col_2600.png",
+		-- 	-- metalSmoothTexture = "LongJacket_Met_2600.png",
+		-- 	profile = "Cameos/KyleDrosdick.lua",
+		-- 	headProps =
+		-- 	{
+		-- 		--"M_Med_Gasmask",
+		-- 		-- "LongHair",
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_10",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- MustafaAlBassam = {
+		-- 	displayName = "Mustafa Al Bassam",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Masculine_Med_SmartJumper_NPC",
+		-- 	prefab = "Masculine_Med_SmartJumper-Mustafa_NPC", --TODO remove
+		-- 	-- colorTexture = ".png",
+		-- 	-- metalSmoothTexture = ".png",
+		-- 	profile = "Cameos/MustafaAlBassam.lua",
+		-- 	headProps =
+		-- 	{
+		-- 		--"M_Med_Hair-Short-Buzz_01",
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_12",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 		},
+		-- 		cyclic = false,
+		-- 		-- create random option aswell as cyclic and ping pong?
+		-- 	},
+		-- },
+		-- NaomiColvin = {
+		-- 	displayName = "Naomi Colvin",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Feminine_Med_Shirt_NPC",
+		-- 	prefab = "Feminine_Med_Shirt-Naomi_NPC",
+		-- 	-- colorTexture = ".png",
+		-- 	-- metalSmoothTexture = ".png",
+		-- 	profile = "Cameos/NaomiColvin.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "CourtHouseNPCAgent.lua",
+		-- 	spawnpoint = "TestSpawn_13",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"TechnoTrolley",
+		-- 			"Computer",
+		-- 			"Snacks",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- [[ VIRTUAL FRIENDLY CHARACTERS ]]--
+		-- pathfinder = {
+		-- 	displayName = "pathfinder",
+		-- 	characterType = "virtual",
+		-- 	profile = "Cameos/pathfinder.lua", --TODO Create character profile
+		-- },
+		-- Spoonzy = {
+		-- 	displayName = "Spoonzy",
+		-- 	characterType = "virtual",
+		-- 	profile = "Cameos/Spoonzy.lua", --TODO Create character profile
+		-- },
 	},
 
 -- Inventory items:
@@ -115,14 +350,16 @@ Table key is used as the internalName value on Unity side.
 -- Do not add to inventories, connect to networks etc this state is for StartMission
 function SetupMission()
 
-	-- Add all characters:
-	--for k, character in pairs(mission.characters) do
-	--	Mission.SpawnCharacter(character)
-	--end
+--	Add all characters:
+for internalName, _ in pairs(mission.characters) do
+	Mission.SpawnCharacter(internalName)
+end
 
-Mission.SpawnCharacter("player")
-Mission.SpawnCharacter("laurilove")
-Mission.SpawnCharacter("mcfly")
+--Mission.SpawnCharacter("player")
+--Mission.SpawnCharacter("laurilove")
+--Mission.SpawnCharacter("mcfly")
+--Mission.SpawnCharacter("JakeDavis")
+
 
 
 	-- Add all networks:
@@ -145,7 +382,12 @@ function StartMission()
 
 	-- Set up player's network connections:
 	Network.ConnectToNetwork({
-		"player", "laurilove", "mcfly",
+		"player",
+		"laurilove",
+		"mcfly",
+		"JakeDavis", 
+		"BarrettBrown",
+		"BiellaColeman",
 	}, "Semaeopus4G", "user")
 
 	-- Network.ConnectToNetwork({
