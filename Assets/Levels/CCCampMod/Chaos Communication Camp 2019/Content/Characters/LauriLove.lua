@@ -13,7 +13,7 @@ Character = {
 		-- InNeedOfToilet?
 	},
 	Colors = {
-		{data = { --[[1, 0.8004598, 0.1490196, 1]] Color.Purple }, tags = {"FavouriteColor"}}
+		--{data = { --[[1, 0.8004598, 0.1490196, 1]] Color.Purple }, tags = {"FavouriteColor"}}
 	},
 
 	Profile = {

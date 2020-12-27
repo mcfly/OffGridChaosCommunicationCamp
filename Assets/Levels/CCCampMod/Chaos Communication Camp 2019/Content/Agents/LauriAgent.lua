@@ -273,10 +273,10 @@ Agent =
     --     { state = "usedReceptionDesk", value = false},
     --   }
     -- },
-    {-- loop using filing cabinet, printer and computer
+    {-- loop using beer tap, whisky bottle and computer
       goal =
       {
-        { state = "usedBeerTap", value = true },
+        { state = "usedLawfulInterceptBeerTap", value = true },
         -- { state = "GreetedJoe", value = true },
         -- { state = "AnsweredIntercom", value = true },
       },
@@ -284,22 +284,22 @@ Agent =
       priority = 10,
       onCompletion =
       {
-        { state = "usedBeerTap", value = false },
-        { state = "usedWhiskyBottles", value = false },
+        { state = "usedLawfulInterceptBeerTap", value = false },
+        { state = "WhiskyBottlesInterest", value = false },
         { state = "usedComputer", value = false },
       }
     },
     {-- this is a backstop goal that sends the NPC to the dest of everything else fails
       goal =
       {
-        { state = "usedReceptionDesk", value = true},
+        { state = "usedReceptionDeskInterest", value = true},
         -- { state = "GreetedJoe", value = true},
       },
       interrupts = true,
       priority = 1, -- low priority
       onCompletion =
       {
-        { state = "usedReceptionDesk", value = false},
+        { state = "usedReceptionDeskInterest", value = false},
       }
     },
   },
@@ -318,14 +318,14 @@ Agent =
     --   audio = "Play_VO_Secretary_LookIToldYouTooMany",
     -- },
     {--FilingCabinet Interest Point
-      interest = "BeerTap",
-      required = { state = "usedBeerTap", value = true },
+      interest = "LawfulInterceptBeerTap",
+      required = { state = "usedWhiskyBottlesInterest", value = true },
       -- TODO This event is a placeholder - Audio events need setting up to work in CanUse actions (with interest point handling the event based on its state?)
       audio = "Play_VO_Secretary_IHaveSomeFilingToDo",
       gesture = "UseCoffeeMachine",
     },
     {--Printer Interest Point
-      interest = "WhiskyBottles",
+      interest = "WhiskyBottlesInterest",
       required = { state = "usedComputer", value = true },
       -- TODO This event is a placeholder - Audio events need setting up to work in CanUse actions (with interest point handling the event based on its state?)
       audio = "Play_VO_Secretary_BloodyPrinter",
@@ -338,7 +338,7 @@ Agent =
       gesture = "StandingTypingCalm",
     },
     {--ReceptionDesk Interest Point
-      interest = "ReceptionDesk",
+      interest = "ReceptionDeskInterest",
       -- TODO This event is a placeholder - Audio events need setting up to work in CanUse actions (with interest point handling the event based on its state?)
       audio = "Play_VO_Secretary_FaxMachineIsOnTheBrink",
       gesture = "LookAtPhone",
