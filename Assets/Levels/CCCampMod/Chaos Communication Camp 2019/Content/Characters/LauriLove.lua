@@ -7,7 +7,7 @@ Character = {
 	Stats = {
 		{ data = 0.4, tags = {"Motivation"}},
 		{ data = 0.3, tags = {"Sociability"}},
-		{ data = 0.9, tags = {"Gluttony"}},
+		{ data = 0.5, tags = {"Gluttony"}},
 		-- Mood?
 		-- Tiredness?
 		-- InNeedOfToilet?

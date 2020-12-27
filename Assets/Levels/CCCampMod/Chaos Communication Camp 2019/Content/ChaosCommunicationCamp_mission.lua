@@ -107,166 +107,145 @@ mission = {
 				cyclic = false,
 			},
 		},
-		-- Shad = {
+		-- Shad = { --PREFAB CURRENTLY BROKEN
 		-- 	displayName = "Shad",
 		-- 	characterType = "npc",
 		-- 	prefab = "Masculine_Med_CasualJumper_NPC",
 		-- 	-- colorTexture = "Cameos/March_Col.png",
 		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
-		-- 	profile = "Cameos/Shad.lua",
-		-- 	headProps = {
-		-- 	--	"﻿M_Med_Hair-Short-Fringe_01", --TODO work out why missing
-		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_04",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
-		-- 			},
-		-- 		cyclic = false,
-		-- 	},
-		-- },
-		-- DarrenMartyn = {
-		-- 	displayName = "Darren Martyn",
-		-- 	characterType = "npc",
-		-- 	prefab = "Masculine_Med_CoatScarf_NPC",
-		-- 	-- colorTexture = "Cameos/March_Col.png",
-		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
-		-- 	profile = "Cameos/DarrenMartyn.lua",
-		-- 	headProps = {
-		-- 		--"﻿",
-		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_05",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
-		-- 			},
-		-- 		cyclic = false,
-		-- 	},
-		-- },
-		-- MarchOneill = {
-		-- 	displayName = "March O'neill",
-		-- 	characterType = "npc",
-		-- 	prefab = "Masculine_Med_LeatherJacket_NPC",
-		-- 	-- colorTexture = "Cameos/March_Col.png",
-		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
-		-- 	profile = "Cameos/MarchOneill.lua",
-		-- 	headProps =
-		-- 	{
-		-- 		-- "M_Med_Glasses-Square-Frame_01",
-		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_08",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
-		-- 		},
-		-- 		cyclic = false,
-		-- 	},
-		-- },
-		-- EmmanuelGoldstein = {
-		-- 	displayName = "Emmanuel Goldstein",
-		-- 	characterType = "npc",
-		-- 	--prefab = "Masculine_Med_LongJacket_NPC",
-		-- 	prefab = "Masculine_Med_LongJacket-2600-Gasmask_NPC",
-		-- 	-- colorTexture = "Cameos/LongJacket_Col_2600.png",
-		-- 	-- metalSmoothTexture = "LongJacket_Met_2600.png",
-		-- 	profile = "Cameos/EmmanuelGoldstein.lua",
-		-- 	headProps =
-		-- 	{
-		-- 	-- "M_Med_FawkesHat",
-		-- 	-- "M_Med_Anonmask",
-		-- 	-- "LongHair",
-		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_09",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
-		-- 		},
-		-- 		cyclic = false,
-		-- 	},
-		-- },
-		-- KyleDrosdick = {
-		-- 	displayName = "Kyle Drosdick",
-		-- 	characterType = "npc",
-		-- 	--prefab = "Masculine_Med_LongJacket_NPC",
-		-- 	prefab = "Masculine_Med_LongJacket-2600-Hat_NPC",
-		-- 	-- colorTexture = "Cameos/LongJacket_Col_2600.png",
-		-- 	-- metalSmoothTexture = "LongJacket_Met_2600.png",
-		-- 	profile = "Cameos/KyleDrosdick.lua",
-		-- 	headProps =
-		-- 	{
-		-- 		--"M_Med_Gasmask",
-		-- 		-- "LongHair",
-		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_10",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
-		-- 		},
-		-- 		cyclic = false,
-		-- 	},
-		-- },
-		-- MustafaAlBassam = {
-		-- 	displayName = "Mustafa Al Bassam",
-		-- 	characterType = "npc",
-		-- 	--prefab = "Masculine_Med_SmartJumper_NPC",
-		-- 	prefab = "Masculine_Med_SmartJumper-Mustafa_NPC", --TODO remove
-		-- 	-- colorTexture = ".png",
-		-- 	-- metalSmoothTexture = ".png",
-		-- 	profile = "Cameos/MustafaAlBassam.lua",
-		-- 	headProps =
-		-- 	{
-		-- 		--"M_Med_Hair-Short-Buzz_01",
-		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_12",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
-		-- 		},
-		-- 		cyclic = false,
-		-- 		-- create random option aswell as cyclic and ping pong?
-		-- 	},
-		-- },
-		-- NaomiColvin = {
-		-- 	displayName = "Naomi Colvin",
-		-- 	characterType = "npc",
-		-- 	--prefab = "Feminine_Med_Shirt_NPC",
-		-- 	prefab = "Feminine_Med_Shirt-Naomi_NPC",
-		-- 	-- colorTexture = ".png",
-		-- 	-- metalSmoothTexture = ".png",
-		-- 	profile = "Cameos/NaomiColvin.lua",
+		-- 	profile = "LauriLove.lua",
 		-- 	headProps =
 		-- 	{
 		-- 	-- "M_Med_Glasses-Square-Frame_01",
 		-- 	},
-		-- 	agent = "CourtHouseNPCAgent.lua",
-		-- 	spawnpoint = "TestSpawn_13",
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "ShadSpawn",
 		-- 	activity = {
 		-- 		points = {
-		-- 			"TechnoTrolley",
-		-- 			"Computer",
-		-- 			"Snacks",
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
 		-- 		},
 		-- 		cyclic = false,
 		-- 	},
 		-- },
+		DarrenMartyn = {
+			displayName = "Darren Martyn",
+			characterType = "npc",
+			prefab = "Masculine_Med_CoatScarf_NPC",
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "DarrenSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
+		MarchOneill = {
+			displayName = "March O'neill",
+			characterType = "npc",
+			prefab = "Masculine_Med_LeatherJacket_NPC",
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "MarchSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
+		EmmanuelGoldstein = {
+			displayName = "Emmanuel Goldstein",
+			characterType = "npc",
+			--prefab = "Masculine_Med_LongJacket_NPC",
+			prefab = "Masculine_Med_LongJacket-2600-Gasmask_NPC",
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "EmmanuelSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
+		KyleDrosdick = {
+			displayName = "Kyle Drosdick",
+			characterType = "npc",
+			--prefab = "Masculine_Med_LongJacket_NPC",
+			prefab = "Masculine_Med_LongJacket-2600-Hat_NPC",
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "KyleSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
+		MustafaAlBassam = {
+			displayName = "Mustafa Al Bassam",
+			characterType = "npc",
+			--prefab = "Masculine_Med_SmartJumper_NPC",
+			prefab = "Masculine_Med_SmartJumper-Mustafa_NPC", --TODO remove
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "MustafaSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
+		NaomiColvin = {
+			displayName = "Naomi Colvin",
+			characterType = "npc",
+			--prefab = "Feminine_Med_Shirt_NPC",
+			prefab = "Feminine_Med_Shirt-Naomi_NPC",
+			profile = "LauriLove.lua",
+			headProps =
+			{
+			-- "M_Med_Glasses-Square-Frame_01",
+			},
+			agent = "LauriAgent.lua",
+			spawnpoint = "NaomiSpawn",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+		},
 		-- [[ VIRTUAL FRIENDLY CHARACTERS ]]--
 		-- pathfinder = {
 		-- 	displayName = "pathfinder",
