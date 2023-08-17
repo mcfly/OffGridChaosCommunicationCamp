@@ -338,7 +338,7 @@ Table key is used as the internalName value on Unity side.
 --[[ Mission Setup ]]--
 -- Is called every time the mission is loaded, set up characters, networks, devices etc.
 -- Do not add to inventories, connect to networks etc this state is for StartMission
-function SetupMission()
+function MissionSetup_Always()
 
 --	Add all characters:
 for internalName, _ in pairs(mission.characters) do
@@ -357,13 +357,13 @@ end
 	-- 	Mission.AddNetwork(network)
 	-- end
 
-	Mission.MissionStarted()
+	Mission.CompletedMissionSetup_Always()
 end
 
 --[[ Mission logic  ]]--
 -- This function is only called when the mission is loaded with no save,
 -- It should set up initial state for characters including their inventories and networks
-function StartMission()
+function MissionSetup_NoSave()
 -- Add items to player inventory:
 	Player.ClearInventory()
 
@@ -382,19 +382,8 @@ function StartMission()
 		"LawfulInterceptBeerTapServer",
 	}, "Semaeopus4G", "user")
 
-	-- Network.ConnectToNetwork({
-	-- 	"player", "MeshleaksSecureDrop",
-	-- 	"secretary", "guard1", "guard2",
-	-- 	"Boss_Computer", "Joe_Computer", "Printer", "DevLaptop",
-	-- 	 "BossAlarm", "Laptop_ISP_ServerRoom_1"
-	--  }, "WorkWiFi", "user")
-	--
-	-- Network.ConnectToNetwork({
-	-- 	"employee_isp_1", "guard_isp_1",
-	-- }, "FirestreamWiFi", "user")
-	--
-	-- Network.ConnectToNetwork("MeshleaksSecureDrop", "MESH", "user")
-	Mission.DevicesConnected()
+
+	Mission.CompletedMissionSetup_NoSave()
 
 
 end
