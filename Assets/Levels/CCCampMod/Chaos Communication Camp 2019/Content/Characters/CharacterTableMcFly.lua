@@ -20,7 +20,7 @@ Character = {
 
 --[[Names]]
 		{ data = "Mr", tags = {"Title"} },
-		{ data = "Brian", tags = {"FirstName", "name"} },
+		{ data = "Elmar", tags = {"FirstName", "Lecher"} },
 		{ data = "mc.fly", tags = {"LastName", "name"} },
 		{ data = {"mc.fly"}, tags = {"NickName", "name"} },
 		{ data = {"ingrate", "disease", "fish", "plum", "lemon", "sillypants"}, tags = {"DerogatoryName"} },
@@ -50,7 +50,7 @@ Character = {
 		{ data = {"Brigitte"}, tags = {"RelativeName", "Mother"} },
 				-- Siblings:
 		{ data = {"Tobias"}, tags = {"RelativeName", "Brother"} },
-		{ data = "Michael", tags = {"friend", "BestFriend"} },
+		{ data = {"Michael"}, tags = {"friend", "BestFriend"} },
 		-- Pet-type
 		{	data = {"Dog"}, tags = {"PetAnimalType"} },
 		-- Pet names

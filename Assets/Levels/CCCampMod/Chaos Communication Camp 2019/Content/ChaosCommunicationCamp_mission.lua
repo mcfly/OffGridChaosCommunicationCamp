@@ -1,7 +1,7 @@
 mission = {
 
 -- Mission info
-	startTime = {2009, 04, 27, 21, 13, 00},
+	startTime = {2019, 08, 15, 09, 11, 00},
 
 -- State - named variables of type number, string or bool will be saved & loaded
 	state = {
@@ -19,107 +19,65 @@ mission = {
 			prefab = "Player_Joe",
 			spawnpoint = "PlayerSpawn",
 		},
-		mcfly = {
-			displayName = "mc.fly",
-			internalName = "mcfly",
-			agent = "LauriAgent.lua",
-			characterType = "npc",
-			profile = "CharacterTableMcFly.lua",
-			prefab = "Masculine_Med_TShirt_NPC",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-			spawnpoint = "mcflySpawn",
-		},
-		laurilove = {
-			displayName = "nsh",
-			internalName = "laurilove",
-			agent = "LauriAgent.lua",
-			characterType = "npc",
-			profile = "LauriLove.lua",
-			prefab = "Masculine_Med_OpenShirt_NPC",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-			spawnpoint = "LauriSpawn",
-		},
-		--[[ FRIENDLY CHARACTERS ]]
-		JakeDavis = {
-			displayName = "Jake Davis",
-			internalName = "JakeDavis",
-			characterType = "npc",
-			prefab = "Masculine_Med_BomberJacket_NPC",
-			profile = "LauriLove.lua",
-			agent = "LauriAgent.lua",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-			spawnpoint = "JakeSpawn",
-		},
-		BiellaColeman = {
-			displayName = "Biella Coleman",
-			internalName = "BiellaColeman",
-			characterType = "npc",
-			prefab = "Feminine_Med_CardiganNecklace_NPC",
-			-- colorTexture = "Cameos/March_Col.png",
-			-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
-			profile = "LauriLove.lua",
-			agent = "LauriAgent.lua",
-			spawnpoint = "BiellaSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		BarrettBrown = {
-			displayName = "Barrett Brown",
-			characterType = "npc",
-			prefab = "Masculine_Med_CasualBlazer_NPC",
-			-- colorTexture = "Cameos/March_Col.png",
-			-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "BarrettSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		-- Shad = { --PREFAB CURRENTLY BROKEN
-		-- 	displayName = "Shad",
+		-- mcfly = {
+		-- 	displayName = "mc.fly",
+		-- 	internalName = "mcfly",
+		-- 	agent = "LauriAgent.lua",
 		-- 	characterType = "npc",
-		-- 	prefab = "Masculine_Med_CasualJumper_NPC",
+		-- 	profile = "CharacterTableMcFly.lua",
+		-- 	prefab = "Masculine_Med_TShirt_NPC",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- 	spawnpoint = "mcflySpawn",
+		-- },
+		-- laurilove = {
+		-- 	displayName = "nsh",
+		-- 	internalName = "laurilove",
+		-- 	agent = "LauriAgent.lua",
+		-- 	characterType = "npc",
+		-- 	profile = "LauriLove.lua",
+		-- 	prefab = "Masculine_Med_OpenShirt_NPC",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- 	spawnpoint = "LauriSpawn",
+		-- },
+		-- --[[ FRIENDLY CHARACTERS ]]
+		-- JakeDavis = {
+		-- 	displayName = "Jake Davis",
+		-- 	internalName = "JakeDavis",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_BomberJacket_NPC",
+		-- 	profile = "LauriLove.lua",
+		-- 	agent = "LauriAgent.lua",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- 	spawnpoint = "JakeSpawn",
+		-- },
+		-- BiellaColeman = {
+		-- 	displayName = "Biella Coleman",
+		-- 	internalName = "BiellaColeman",
+		-- 	characterType = "npc",
+		-- 	prefab = "Feminine_Med_CardiganNecklace_NPC",
 		-- 	-- colorTexture = "Cameos/March_Col.png",
 		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
 		-- 	profile = "LauriLove.lua",
-		-- 	headProps =
-		-- 	{
-		-- 	-- "M_Med_Glasses-Square-Frame_01",
-		-- 	},
 		-- 	agent = "LauriAgent.lua",
-		-- 	spawnpoint = "ShadSpawn",
+		-- 	spawnpoint = "BiellaSpawn",
 		-- 	activity = {
 		-- 		points = {
 		-- 			"LauriPatrol01",
@@ -128,135 +86,177 @@ mission = {
 		-- 		cyclic = false,
 		-- 	},
 		-- },
-		DarrenMartyn = {
-			displayName = "Darren Martyn",
-			characterType = "npc",
-			prefab = "Masculine_Med_CoatScarf_NPC",
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "DarrenSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		MarchOneill = {
-			displayName = "March O'neill",
-			characterType = "npc",
-			prefab = "Masculine_Med_LeatherJacket_NPC",
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "MarchSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		EmmanuelGoldstein = {
-			displayName = "Emmanuel Goldstein",
-			characterType = "npc",
-			--prefab = "Masculine_Med_LongJacket_NPC",
-			prefab = "Masculine_Med_LongJacket-2600-Gasmask_NPC",
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "EmmanuelSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		KyleDrosdick = {
-			displayName = "Kyle Drosdick",
-			characterType = "npc",
-			--prefab = "Masculine_Med_LongJacket_NPC",
-			prefab = "Masculine_Med_LongJacket-2600-Hat_NPC",
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "KyleSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		MustafaAlBassam = {
-			displayName = "Mustafa Al Bassam",
-			characterType = "npc",
-			--prefab = "Masculine_Med_SmartJumper_NPC",
-			prefab = "Masculine_Med_SmartJumper-Mustafa_NPC", --TODO remove
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "MustafaSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		NaomiColvin = {
-			displayName = "Naomi Colvin",
-			characterType = "npc",
-			--prefab = "Feminine_Med_Shirt_NPC",
-			prefab = "Feminine_Med_Shirt-Naomi_NPC",
-			profile = "LauriLove.lua",
-			headProps =
-			{
-			-- "M_Med_Glasses-Square-Frame_01",
-			},
-			agent = "LauriAgent.lua",
-			spawnpoint = "NaomiSpawn",
-			activity = {
-				points = {
-					"LauriPatrol01",
-					"LauriPatrol02",
-				},
-				cyclic = false,
-			},
-		},
-		-- [[ VIRTUAL FRIENDLY CHARACTERS ]]--
-		-- pathfinder = {
-		-- 	displayName = "pathfinder",
-		-- 	characterType = "virtual",
-		-- 	profile = "Cameos/pathfinder.lua", --TODO Create character profile
+		-- BarrettBrown = {
+		-- 	displayName = "Barrett Brown",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_CasualBlazer_NPC",
+		-- 	-- colorTexture = "Cameos/March_Col.png",
+		-- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "BarrettSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
 		-- },
-		-- Spoonzy = {
-		-- 	displayName = "Spoonzy",
-		-- 	characterType = "virtual",
-		-- 	profile = "Cameos/Spoonzy.lua", --TODO Create character profile
+		-- -- Shad = { --PREFAB CURRENTLY BROKEN
+		-- -- 	displayName = "Shad",
+		-- -- 	characterType = "npc",
+		-- -- 	prefab = "Masculine_Med_CasualJumper_NPC",
+		-- -- 	-- colorTexture = "Cameos/March_Col.png",
+		-- -- 	-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+		-- -- 	profile = "LauriLove.lua",
+		-- -- 	headProps =
+		-- -- 	{
+		-- -- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- -- 	},
+		-- -- 	agent = "LauriAgent.lua",
+		-- -- 	spawnpoint = "ShadSpawn",
+		-- -- 	activity = {
+		-- -- 		points = {
+		-- -- 			"LauriPatrol01",
+		-- -- 			"LauriPatrol02",
+		-- -- 		},
+		-- -- 		cyclic = false,
+		-- -- 	},
+		-- -- },
+		-- DarrenMartyn = {
+		-- 	displayName = "Darren Martyn",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_CoatScarf_NPC",
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "DarrenSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
 		-- },
+		-- MarchOneill = {
+		-- 	displayName = "March O'neill",
+		-- 	characterType = "npc",
+		-- 	prefab = "Masculine_Med_LeatherJacket_NPC",
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "MarchSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- EmmanuelGoldstein = {
+		-- 	displayName = "Emmanuel Goldstein",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Masculine_Med_LongJacket_NPC",
+		-- 	prefab = "Masculine_Med_LongJacket-2600-Gasmask_NPC",
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "EmmanuelSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- KyleDrosdick = {
+		-- 	displayName = "Kyle Drosdick",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Masculine_Med_LongJacket_NPC",
+		-- 	prefab = "Masculine_Med_LongJacket-2600-Hat_NPC",
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "KyleSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- MustafaAlBassam = {
+		-- 	displayName = "Mustafa Al Bassam",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Masculine_Med_SmartJumper_NPC",
+		-- 	prefab = "Masculine_Med_SmartJumper-Mustafa_NPC", --TODO remove
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "MustafaSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- NaomiColvin = {
+		-- 	displayName = "Naomi Colvin",
+		-- 	characterType = "npc",
+		-- 	--prefab = "Feminine_Med_Shirt_NPC",
+		-- 	prefab = "Feminine_Med_Shirt-Naomi_NPC",
+		-- 	profile = "LauriLove.lua",
+		-- 	headProps =
+		-- 	{
+		-- 	-- "M_Med_Glasses-Square-Frame_01",
+		-- 	},
+		-- 	agent = "LauriAgent.lua",
+		-- 	spawnpoint = "NaomiSpawn",
+		-- 	activity = {
+		-- 		points = {
+		-- 			"LauriPatrol01",
+		-- 			"LauriPatrol02",
+		-- 		},
+		-- 		cyclic = false,
+		-- 	},
+		-- },
+		-- -- [[ VIRTUAL FRIENDLY CHARACTERS ]]--
+		-- -- pathfinder = {
+		-- -- 	displayName = "pathfinder",
+		-- -- 	characterType = "virtual",
+		-- -- 	profile = "Cameos/pathfinder.lua", --TODO Create character profile
+		-- -- },
+		-- -- Spoonzy = {
+		-- -- 	displayName = "Spoonzy",
+		-- -- 	characterType = "virtual",
+		-- -- 	profile = "Cameos/Spoonzy.lua", --TODO Create character profile
+		-- -- },
 	},
 
 -- Inventory items:
@@ -275,16 +275,16 @@ Available data types: generic, text, SMS, encrypted, audio, video, location, key
 Table key is used as the internalName value on Unity side.
 ]]--
 	data = {
-		PlayerPGPKey = {
-			internalName = "PlayerPGPKey",
-			name = "Personal PGP encryption key",
-			immutable = true,
-			dataType = 7,
-			creatorName = "Player",
-			dataString = "PGP Fingerprint: 1d7d ef54 7a63 5756 63a7 cf14 fbd8 775c c39d 4e51",
-			description = "AES 256-bit",
-			dataColor = {0.0, 0.6, 1.0, 0.3},
-		},
+		-- PlayerPGPKey = {
+		-- 	internalName = "PlayerPGPKey",
+		-- 	name = "Personal PGP encryption key",
+		-- 	immutable = true,
+		-- 	dataType = 7,
+		-- 	creatorName = "Player",
+		-- 	dataString = "PGP Fingerprint: 1d7d ef54 7a63 5756 63a7 cf14 fbd8 775c c39d 4e51",
+		-- 	description = "AES 256-bit",
+		-- 	dataColor = {0.0, 0.6, 1.0, 0.3},
+		-- },
 
 	},
 
@@ -322,14 +322,14 @@ Table key is used as the internalName value on Unity side.
 	},
 
 	devices = {
-		LawfulInterceptBeerTapServer = {
-			script = "LawfulInterceptBeerTap.lua",
-			hackable = true,
-		},
-		DevMachine = {
-			script = "DevMachine.lua",
-			hackable = true,
-		},
+		-- LawfulInterceptBeerTapServer = {
+		-- 	script = "LawfulInterceptBeerTap.lua",
+		-- 	hackable = true,
+		-- },
+		-- DevMachine = {
+		-- 	script = "DevMachine.lua",
+		-- 	hackable = true,
+		-- },
 
 	},
 }
@@ -341,11 +341,14 @@ Table key is used as the internalName value on Unity side.
 function MissionSetup_Always()
 
 --	Add all characters:
-for internalName, _ in pairs(mission.characters) do
-	Mission.SpawnCharacter(internalName)
-end
+-- for internalName, _ in pairs(mission.characters) do
+-- 	Mission.SpawnCharacter(internalName)
+-- end
+-- for characterName, _ in pairs(mission.characters) do
+-- 	Mission.SpawnCharacter(characterName)
+-- end
 
---Mission.SpawnCharacter("player")
+Mission.SpawnCharacter("player")
 --Mission.SpawnCharacter("laurilove")
 --Mission.SpawnCharacter("mcfly")
 --Mission.SpawnCharacter("JakeDavis")
@@ -373,13 +376,13 @@ function MissionSetup_NoSave()
 	-- Set up player's network connections:
 	Network.ConnectToNetwork({
 		"player",
-		"laurilove",
-		"mcfly",
-		"JakeDavis",
-		"BarrettBrown",
-		"BiellaColeman",
-		"DevMachine",
-		"LawfulInterceptBeerTapServer",
+		-- "laurilove",
+		-- "mcfly",
+		-- "JakeDavis",
+		-- "BarrettBrown",
+		-- "BiellaColeman",
+		-- "DevMachine",
+		-- "LawfulInterceptBeerTapServer",
 	}, "Semaeopus4G", "user")
 
 
@@ -394,10 +397,10 @@ MissionObjects["Lauri_Speakerpram"].OnStopInteracting = function(name)
 	if name == Player.GetName() then
 		--TODO this is temp and so the states and audio need updating
 	--	if Mission.GetBool("useIntercomObjectiveCompleted") then
-			Sound.TriggerEvent("Radio_Music_Set_Station_UpBeat_1", "Lauri_Speakerpram")
-			Sound.TriggerEvent("Play_Radio_Music_On", "Lauri_Speakerpram")
-			AI.AlterNPCWorldState("laurilove", "Danced", false)
-			print("started techno trolley")
+			-- Sound.TriggerEvent("Radio_Music_Set_Station_UpBeat_1", "Lauri_Speakerpram")
+			-- Sound.TriggerEvent("Play_Radio_Music_On", "Lauri_Speakerpram")
+			-- AI.AlterNPCWorldState("laurilove", "Danced", false)
+			-- print("started techno trolley")
 		else
 				-- do nothing
 		end
