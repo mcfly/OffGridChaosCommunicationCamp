@@ -13,10 +13,20 @@ mission = {
 -- Character definitions:
 	characters = {
 		player = {
-			displayName = "Joe Harman",
+			-- displayName = "Joe Hammond"
+			displayName = "Biella Coleman",
 			internalName = "player",
 			characterType = "player",
-			prefab = "Player_Joe",
+			-- prefab = "Player_Joe",
+			prefab = "Feminine_Med_CardiganNecklace_NPC",
+			--colorTexture = "Cameos/Biella_Col.png",
+			-- metalSmoothTexture = "Vest_Met_Security-Apostle.png",
+			headProps =
+			{
+			--"M_Med_Glasses-Reading_02",
+			--"F_Med_Glasses-Reading_01",
+			--"F_Med_Hair-Short-SideFringe_01",
+			},
 			spawnpoint = "PlayerSpawn",
 		},
 		-- mcfly = {
