@@ -1,6 +1,0 @@
-_Conversations_
-
-This is where the the convesation files your mission script references all need to be kept
-
-*THIS FILE IS REQUIRED FOR VERSION CONTROL MAPPING OF FOLDERS IN P4V
-*DO NOT DELETE UNLESS OTHER FILES ARE IN THE FOLDER OR SUB-FOLDERS

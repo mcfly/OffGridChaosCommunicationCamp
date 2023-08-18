@@ -6,17 +6,16 @@
 !/README.md
 
 ### Include ProjectSettings:
-
 !/ProjectSettings/
 !/ProjectSettings/**
 
 ### Include mod level folder:
-!/Assets/
-/Assets/**
-!/Assets/Levels/
-/Assets/Levels/**
-!/Assets/Levels/CCCampMod/
-!/Assets/Levels/CCCampMod/**
+###!/Assets/
+###/Assets/**
+###!/Assets/Levels/
+###/Assets/Levels/**
+!/CCCampMod/
+!/CCCampMod/**
 
 ### For now we have to leave LevelKit out so as to make sure the mod is forward compatible
 ### We will look to create a LevelKit repo and structure to support this in future
