@@ -67,9 +67,9 @@ Character = {
 		{ data = {"HildesheimerBankHaus"}, tags = {"BankName"} },
 		-- Passwords
 		-- Phone Cell, landline#:
-		{ data == {"+49506485070"}, tags = {"PhoneNumber"} },
+		{ data = {"+49506485070"}, tags = {"PhoneNumber"} },
 		-- Screwgle Advertising Id 23-4v678462-b387a36-3756nd-423
-		{ data == {"23-4v678462-b387a36-3756nd-423"}, tags = {"ScrewgleAdvertisingId"} },
+		{ data = {"23-4v678462-b387a36-3756nd-423"}, tags = {"ScrewgleAdvertisingId"} },
 
 --[[ Background ]]
 
