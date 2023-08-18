@@ -12,73 +12,109 @@ Agent =
     { state = "GaveATalk", value = false },
     -- WatchHackers (in the rummery)
     { state = "WatchedHackers", value = false },
+    -- Used Place at a Talk
+    { state = "usedPlaceAtATalk", value = false },
+    -- Has Motivation
+    { state = "hasMotivation", value = false },
+    -- Used Soldering Iron
+    { state = "usedSolderingIron", value = false },
+    -- Used Coffee
+    { state = "usedCoffee", value = false},
+    -- Used Lawful Intercept Beer Tap
+    { state = "usedLawfulInterceptBeerTap", value = false},
+    -- Used Whisky Bottles Interest
+    { state = "usedWhiskyBottlesInterest", value = false},
+    -- Used Dev Machine
+    { state = "usedDevMachine", value = false},
+    -- Patrol Completed
+    { state = "patrolCompleted", value = false},
+    -- Used Receptioni Deskt Interest
+    { state = "usedReceptionDeskInterest", value = false},
   },
 
   actions =
   {
     {-- DrinkingWhisky Action
-        name = "DrinkingWhisky",
-        gesture = "UseCoffeeMachine",
-        audio = "Play_Laptop_Download",
-        required =
-        {
-          { state = "GotInebriated", value = false },
-        },
-        effect = { state = "GotInebriated", value = true },
-        -- targetPlayer = true,
+      name = "DrinkingWhisky",
+      gesture = "UseCoffeeMachine",
+      audio = "Play_Laptop_Download",
+      required =
+      {
+        { state = "GotInebriated", value = false },
+      },
+      effect = 
+      { 
+        { state = "GotInebriated", value = true }
+      },
+      -- targetPlayer = true,
     },
-    {-- Dancing Action
-        name = "Dancing",
-        gesture = "DanceSalsa",
-        --audio = "Play_Laptop_Download",
-        required =
-        {
-          { state = "Danced", value = false },
-        },
-        effect = { state = "Danced", value = true },
-        -- targetPlayer = true,
-    },
-    {-- Watching A Talk Action
-        name = "WatchingATalk",
-        gesture = "LookAround",
-        --audio = "Play_Laptop_Download",
-        required =
-        {
-          { state = "usedPlaceAtATalk", value = false },
-        },
-        effect = { state = "usedPlaceAtATalk", value = true },
 
-        -- targetPlayer = true,
+    {-- Dancing Action
+      name = "Dancing",
+      gesture = "DanceSalsa",
+      --audio = "Play_Laptop_Download",
+      required =
+      {
+        { state = "Danced", value = false },
+      },
+      effect = 
+      { 
+        { state = "Danced", value = true }
+      },
+      -- targetPlayer = true,
     },
+
+    {-- Watching A Talk Action
+      name = "WatchingATalk",
+      gesture = "LookAround",
+      --audio = "Play_Laptop_Download",
+      required =
+      {
+        { state = "usedPlaceAtATalk", value = false },
+      },
+      effect = 
+      { 
+        { state = "usedPlaceAtATalk", value = true }
+      },
+      -- targetPlayer = true,
+    },
+
     {-- Coffee Action
-        name = "Coffee",
-        gesture = "UseCoffeeMachine",
-        --audio = "Play_Laptop_Download",
-        required =
-        {
-          { state = "hasMotivation", value = false },
-          { state = "usedPlaceAtATalk", value = true },
-        },
-        effect = { state = "hasMotivation", value = true },
+      name = "Coffee",
+      gesture = "UseCoffeeMachine",
+      --audio = "Play_Laptop_Download",
+      required =
+      {
+        { state = "hasMotivation", value = false },
+        { state = "usedPlaceAtATalk", value = true },
+      },
+      effect = 
+      { 
+        {state = "hasMotivation", value = true }
+      },
     },
+    
     {-- Use Soldering Iron Action
-        name = "Soldering",
-        gesture = "PickupMed",
-        --audio = "Play_Laptop_Download",
-        required =
-        {
-          { state = "usedSolderingIron", value = false },
-          { state = "usedCoffee", value = true },
-        },
-        effect = { state = "usedSolderingIron", value = true },
-        -- targetPlayer = true,
+      name = "Soldering",
+      gesture = "PickupMed",
+      --audio = "Play_Laptop_Download",
+      required =
+      {
+        { state = "usedSolderingIron", value = false },
+        { state = "usedCoffee", value = true },
+      },
+      effect =
+       { 
+        { state = "usedSolderingIron", value = true }
+      },
+      -- targetPlayer = true,
     },
   },
 
   goals =
   {
     {-- Dance
-      goal =
+      states =
       {
         { state = "Danced", value = true },
       },
@@ -90,15 +126,17 @@ Agent =
           --{ state = "Danced", value = false },
       }
     },
+
     { --GOAL for motivation
-     goal =
+      states =
       {
         { state = "hasMotivation", value = true },
       },
       priority = 25,
     },
+
     {-- loop using beer tap, whisky bottle and DevMachine
-      goal =
+      states =
       {
         { state = "usedLawfulInterceptBeerTap", value = true },
         -- { state = "GreetedJoe", value = true },
@@ -113,8 +151,9 @@ Agent =
         { state = "usedDevMachine", value = false },
       }
     },
+
     {-- loop using talk tent, coffee and harwarehacking village
-      goal =
+      states =
       {
         { state = "usedCoffee", value = true },
       },
@@ -127,8 +166,9 @@ Agent =
         { state = "usedSolderingIron", value = false },
       }
     },
+
     {-- Patrol Goal
-      goal =
+      states =
       {
         { state = "patrolCompleted", value = true },
       },
@@ -138,8 +178,9 @@ Agent =
         { state = "patrolCompleted", value = false },
       }
     },
+
     {-- this is a backstop goal that sends the NPC to the dest of everything else fails
-      goal =
+      states =
       {
         { state = "usedReceptionDeskInterest", value = true},
         -- { state = "GreetedJoe", value = true},
