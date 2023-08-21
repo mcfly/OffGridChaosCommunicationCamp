@@ -6,10 +6,30 @@ device = {
 	end,
 	gui = {
 		type = "ncurses",
-		header = [[Amsterdam Hackerspace Lawful Intercept Beer Tap]],
+		header = [[Internet Beer Tap - Technologia Incognita, Amsterdam, Netherlands]],
 		backgroundColour = {0.4, 0.1, 0.7176},
 		highlightColour = {0, 0.6588, 1.0},
 		buttons = {
+			about = {
+				name = "About the Internet Beer Tap",
+				subButtons = {
+					{
+						name = "https://wiki.techinc.nl/Internet_Beer_Tap",
+					},
+					{
+						name = "Once upon a time, a lovely piece of Purple networking hardware got pushed into the obscene job of having to function in tapping the internet for law-enforcement purposes. After liberating the quarter-million-dollar-networking-switch, we have taken it upon ourselves to offer it a worthy retirement plan that allows it to re-socialize itself. The Internet Beer Tap became a fact.",
+					},
+					{
+						name = "History - The Internet Tap has performed service for a fair number of years at a dutch ISP who, after upgrading to smaller, lighter, faster hardware found themselves with the problem of just how to get this huge piece of hardware out of the rack it was in. Luckily a solution was available that suited all parties involved.After getting rid of a number of unneeded parts involving the routing of bits, we replaced them with the materials required to route beer instead. This involved getting rid of about 80% of it's weight and putting only a fraction back. At current, it's a water-bath-cooler based tap, entirely self-contained within the unit. The only external parts required are the kegs and CO2. There's two taps that provide cooled beverages. The middle one is left to supply IPAv4, which hasnt been in stock for ages. Future upgrades will involve making the middle tap also cooled via the water-based chill-bath.",
+					},
+					{
+						name = "Status : Functional! * Beer-cooler fitted with 2 spirals to cool beer *check*. * Center tap currently not connected. * Most right connection on the bottom plate is for filling the water-level of beer-cooler *check* * Driptray installed (Slot B) LED-animations while system is powered on *check* * A box containing keg-couplers, pressure-reducer and instruction-cards *check*", 
+					},
+					{
+						name = "Future : * Add last spiral cooler for middle tap. * Add small pump for starting cooling-line flow along beer-delivery-lines to faucets * Add floater-controlled valve on input for coolant-water to auto-fill water-bath * Inspect possibility of setting coolant-bath temperature (does Gamko support this ?) * Add ESP32's with ESPHome for controlling lights * Add ESP32's for checking beer-temp, beer-flow, water-level * Add ESP32's for displaying E-Ink's above the taps",
+					},
+				},
+			},
 			users = {
 				name = "Currently Targeted Users",
 				subButtons = {
