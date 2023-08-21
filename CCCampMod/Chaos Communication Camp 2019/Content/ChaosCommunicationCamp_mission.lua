@@ -1,5 +1,5 @@
 mission = {
-
+--TEST
 -- Mission info
 	startTime = {2019, 08, 15, 09, 11, 00},
 
