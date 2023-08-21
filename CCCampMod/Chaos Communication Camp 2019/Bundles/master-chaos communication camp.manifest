@@ -87,8 +87,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Levels/Assets/Levels/CCCampMod/Chaos Communication Camp 2019/Scene/MASTER-Chaos
-  Communication Camp.unity
+- Assets/Levels/CCCampMod/Chaos Communication Camp 2019/Scene/MASTER-Chaos Communication
+  Camp.unity
 Dependencies:
-- D:/SteamLibrary/steamapps/common/Off Grid - LevelKit/LeveKit - 2023-08-15 - 18.57/Assets/Levels/Assets/Levels/CCCampMod/Chaos
+- D:/SteamLibrary/steamapps/common/Off Grid - LevelKit/LeveKit - 2023-08-15 - 18.57/Assets/Levels/CCCampMod/Chaos
   Communication Camp 2019/Bundles/offgrid_shaders
