@@ -29,22 +29,23 @@ mission = {
 			},
 			spawnpoint = "PlayerSpawn",
 		},
-		-- mcfly = {
-		-- 	displayName = "mc.fly",
-		-- 	internalName = "mcfly",
-		-- 	agent = "LauriAgent.lua",
-		-- 	characterType = "npc",
-		-- 	profile = "CharacterTableMcFly.lua",
-		-- 	prefab = "Masculine_Med_TShirt_NPC",
-		-- 	activity = {
-		-- 		points = {
-		-- 			"LauriPatrol01",
-		-- 			"LauriPatrol02",
-		-- 		},
-		-- 		cyclic = false,
-		-- 	},
-		-- 	spawnpoint = "mcflySpawn",
-		-- },
+		mcfly = {
+			displayName = "mc.fly",
+			internalName = "mcfly",
+			agent = "LauriAgent.lua",
+			characterType = "npc",
+			-- profile = "CharacterTableMcFly.lua",
+			profile = "LauriLove.lua",
+			prefab = "Masculine_Med_TShirt_NPC",
+			activity = {
+				points = {
+					"LauriPatrol01",
+					"LauriPatrol02",
+				},
+				cyclic = false,
+			},
+			spawnpoint = "mcflySpawn",
+		},
 		-- laurilove = {
 		-- 	displayName = "nsh",
 		-- 	internalName = "laurilove",
@@ -360,7 +361,7 @@ function MissionSetup_Always()
 
 Mission.SpawnCharacter("player")
 --Mission.SpawnCharacter("laurilove")
---Mission.SpawnCharacter("mcfly")
+Mission.SpawnCharacter("mcfly")
 --Mission.SpawnCharacter("JakeDavis")
 
 
@@ -387,7 +388,7 @@ function MissionSetup_NoSave()
 	Network.ConnectToNetwork({
 		"player",
 		-- "laurilove",
-		-- "mcfly",
+		"mcfly",
 		-- "JakeDavis",
 		-- "BarrettBrown",
 		-- "BiellaColeman",
