@@ -6,8 +6,8 @@
 !/README.md
 
 ### Include ProjectSettings:
-!/ProjectSettings/
-!/ProjectSettings/**
+###!/ProjectSettings/
+###!/ProjectSettings/**
 
 ### Include mod level folder:
 ###!/Assets/
